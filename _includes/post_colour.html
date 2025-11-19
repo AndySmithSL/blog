@@ -1,7 +1,7 @@
 {%- if include.post.colour -%}
   {{- include.post.colour -}}
 {%- elsif include.postIndex != nil -%}
-  {%- assign colourIndex = include.postIndex | modulo: 3 -%}
+  {%- assign colourIndex = include.postIndex | modulo: 4 -%}
   {%- case colourIndex -%}
     {%- when 0 -%} teal
     {%- when 1 -%} orange
@@ -9,7 +9,7 @@
     {%- when 3 -%} yellow
   {%- endcase -%}
 {%- else -%}
-  {%- assign colourIndex = include.post.title | size | modulo: 3 -%}
+  {%- assign colourIndex = include.post.title | size | modulo: 4 -%}
   {%- case colourIndex -%}
     {%- when 0 -%} teal
     {%- when 1 -%} orange
