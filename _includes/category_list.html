@@ -3,10 +3,11 @@
   <h4>Categories</h4>
   <ul>
     {%- for category in site.data.categories -%}
+
       <li>
         <a href="{{- site.baseurl -}}{{- category.url -}}">
           <span
-            class="{%- if selectedCategory == category.title -%}active{%- endif -%}"
+            class="pill--{% include post_colour.html postIndex=forloop.index0 %}{% if selectedCategory == category.title %} active{% endif %}"
           >
             {{- category.title -}}
           </span>
