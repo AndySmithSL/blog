@@ -4,12 +4,11 @@ layout: default
 {%- assign author = site.data.authors.authors[page.author] -%}
 {%- assign authorUsername = page.author -%}
 
-<div
-  class="default-post {% include post_colour.html post=page %} grid-container"
->  {%- if page.podcast_embed_url -%}
-    {%- include podcast_header.html page=page -%}
+<div class="default-post {% include post_colour.html post=page %} grid-container">
+  {%- if page.podcast_embed_url -%}
+  {%- include podcast_header.html page=page -%}
   {%- else -%}
-    {%- include default_post_header.html page=page -%}
+  {%- include default_post_header.html page=page -%}
   {%- endif -%}
 
   <div class="grid-x grid-margin-x grid-padding-y">

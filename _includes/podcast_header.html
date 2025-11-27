@@ -19,14 +19,14 @@
         style="width: 71.13px; height: 57.66px; left: 268.73px; top: 43.43px; position: absolute; opacity: 0; background: white">
       </div>
     </div>
-      <img class="podcast-header__img" src="{{ '/uploads/beyond_the_hype.png' | relative_url }}" alt="Beyond the Hype podcast cover" />
+    <img class="podcast-header__img" src="{{ 'ceberhardt/assets/BeyondTheHype.png' | relative_url }}" alt="Beyond the Hype podcast cover" />
     <div class="podcast-header__info">
       <div class="podcast-header__meta">
-      {%- include category_display.html post = page -%}
-      <span>&middot;</span>
-      <span>{{- page.date | date: '%d %B %Y' -}}</span>
+        {%- include category_display.html post = page -%}
+        <span>&middot;</span>
+        <span>{{- page.date | date: '%d %B %Y' -}}</span>
 
-    </div>
+      </div>
 
       <div class="podcast-header__title-block">
         <div class="podcast-header__subtitle">
@@ -36,15 +36,9 @@
       </div>
       <div class="podcast-header__platforms">
         <div class="podcast-header__platform-btns">
-        {%- if page.podcast_apple_url -%}
-          <a
-            href="{{ page.podcast_apple_url }}"
-            target="_blank"
-            rel="noopener"
-            data-theme="light"
-            class="podcast-header__platform-btn"
-            role="button"
-            >
+          {%- if page.podcast_apple_url -%}
+          <a href="{{ page.podcast_apple_url }}" target="_blank" rel="noopener" data-theme="light"
+            class="podcast-header__platform-btn" role="button">
             <div data-svg-wrapper style="position: relative">
               <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_505_419)">
@@ -80,16 +74,10 @@
                 Apple Podcasts</div>
             </div>
           </a>
-        {%- endif -%}
-        {%- if page.podcast_spotify_url -%}
-          <a
-            href="{{ page.podcast_spotify_url }}"
-            target="_blank"
-            rel="noopener"
-            data-theme="light"
-            class="podcast-header__platform-btn"
-            role="button"
-            >
+          {%- endif -%}
+          {%- if page.podcast_spotify_url -%}
+          <a href="{{ page.podcast_spotify_url }}" target="_blank" rel="noopener" data-theme="light"
+            class="podcast-header__platform-btn" role="button">
             <div data-svg-wrapper style="position: relative">
               <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_505_433)">
@@ -111,25 +99,16 @@
                 Spotify</div>
             </div>
           </a>
-        {%- endif -%}
-        </div>
-        <div class="podcast-header__more">
-          <div>
-            More episodes</div>
-          <div class="podcast-header__more-btn">
-            <div data-svg-wrapper style="position: relative">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12.6 12L8 7.4L9.4 6L15.4 12L9.4 18L8 16.6L12.6 12Z" fill="white" />
-              </svg>
-            </div>
-          </div>
+          {%- endif -%}
         </div>
       </div>
     </div>
   </div>
-    <div class = "podcast-header__divider"></div>
+  <div class="podcast-header__divider"></div>
   <div class="podcast-header__footer">
     <div class="podcast-header__player">
-      <iframe title="Embed Player" style="border:none" src="{{ page.podcast_embed_url }}"  height="64" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
+      <iframe title="Embed Player" style="border:none" src="{{ page.podcast_embed_url }}" height="64" width="100%"
+        scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true"
+        msallowfullscreen="true"></iframe>
+    </div>
   </div>
-</div>
