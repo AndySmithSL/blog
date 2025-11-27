@@ -1,5 +1,5 @@
 ---
-title: 'Beyond the Hype: Can we do better than ''carbon aware'' computing?'
+title: 'Can we do better than ''carbon aware'' computing?'
 date: 2024-06-03 10:36:00 Z
 categories:
 - Podcast
@@ -23,9 +23,10 @@ image: "/uploads/BeyondTheHype---green-and-yellow---episode-19---social.jpg"
 contributors:
 - ocronk
 - drees
+podcast_embed_url: "https://play.libsyn.com/embed/episode/id/31576132/height/64/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF"
+podcast_apple_url: "https://podcasts.apple.com/gb/podcast/can-we-do-better-than-carbon-aware-computing/id1612265563?i=1000657656509"
+podcast_spotify_url: "https://open.spotify.com/episode/3GItYm7LUQdD0ogH9urhqU?si=M_mGZgGtSkeG2gUabpJqfw"
 ---
-
-<iframe title="Embed Player" src="https://play.libsyn.com/embed/episode/id/31576132/height/192/theme/modern/size/large/thumbnail/yes/custom-color/ffffff/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/252525" height="192" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" style="border: none;"></iframe>
 
 In this episode, Oliver Cronk and David Rees from Scott Logic are joined by Hannah Smith, Director of Operations at Green Web Foundation, an organisation aiming to make the internet fossil-free by 2030. Together, they explore the potential benefits and limitations of ‘carbon aware’ computing, which involves scheduling computational workloads during times or in locations where energy sources have lower carbon emissions.
 

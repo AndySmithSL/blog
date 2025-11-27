@@ -1,0 +1,201 @@
+.podcast-header {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.0625rem;
+  display: inline-flex;
+
+  &__main {
+    align-self: stretch;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    position: relative;
+    background: #47A2A7;
+    border-top-left-radius: 2rem;
+    border-right: 0.0625rem white solid;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+    display: inline-flex;
+  }
+
+  &__image-wrapper {
+    width: 30.419375rem;
+    height: 19.1875rem;
+    right: 0;
+    top: 0;
+    position: absolute;
+    overflow: hidden;
+
+        & .corner-triangle {
+      right: 0;
+      top: 0;
+      position: absolute;
+    }
+
+    & .background-shape {
+      left: 8.371875rem;
+      top: 2.714375rem;
+      position: absolute;
+    }
+
+  }
+
+  &__img {
+    width: 13.875rem;
+    height: 13.875rem;
+    box-shadow: 0rem 0.0625rem 0.375rem -0.125rem rgba(0, 0, 0, 0.25);
+    border-radius: 1.5rem;
+  }
+
+  &__info {
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.75rem;
+    display: inline-flex;
+  }
+
+  &__meta {
+    align-self: stretch;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+    color: white;
+  }
+
+  &__title-block {
+    align-self: stretch;
+    padding-bottom: 0.5rem;
+    padding-right: 14.3125rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.0625rem;
+    display: flex;
+  }
+
+  &__subtitle {
+    align-self: stretch;
+    color: white;
+    font-size: 1.5rem;
+    font-family: Objektiv Mk1 Trial, sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+
+  &__title {
+    align-self: stretch;
+    color: white;
+    font-size: 2.5rem;
+    font-family: Objektiv Mk1 Trial, sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+
+  &__platforms {
+    align-self: stretch;
+    justify-content: space-between;
+    align-items: flex-end;
+    display: inline-flex;
+  }
+
+  &__platform-btns {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    display: flex;
+  }
+
+  &__platform-btn {
+    width: 11.0625rem;
+    height: 2.375rem;
+    padding-left: 0.4125rem;
+    padding-right: 0.4125rem;
+    padding-top: 0.40625rem;
+    padding-bottom: 0.40625rem;
+    background: white;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.3125rem;
+    display: flex;
+  }
+
+  &__platform-text {
+    color: #666666;
+    font-size: 0.5625rem;
+    font-family: SF Pro Display, sans-serif;
+    font-weight: 400;
+    line-height: 0.5rem;
+    letter-spacing: 0.0225rem;
+    word-wrap: break-word;
+  }
+
+  &__platform-title {
+    color: black;
+    font-size: 1.125rem;
+    font-family: SF Pro Display, sans-serif;
+    font-weight: 500;
+    line-height: 0.875rem;
+    word-wrap: break-word;
+  }
+
+  &__more {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 1rem;
+    font-family: Objektiv Mk1 Trial, sans-serif;
+    font-weight: 700;
+    line-height: 1rem;
+    word-wrap: break-word;
+  }
+
+  &__more-btn {
+    padding-top: 0.125rem;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    display: flex;
+  }
+
+  &__footer {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.5rem;
+    display: flex;
+  }
+
+  &__player {
+    align-self: stretch;
+    height: 6.5625rem;
+    background: #47A2A7;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-right: 0.0625rem white solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.875rem;
+    display: inline-flex;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  &__divider {
+    width: 2.75rem;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    display: flex;
+  }
+}
