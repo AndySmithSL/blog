@@ -19,7 +19,7 @@
         style="width: 71.13px; height: 57.66px; left: 268.73px; top: 43.43px; position: absolute; opacity: 0; background: white">
       </div>
     </div>
-    <img class="podcast-header__img" src="{{ 'ceberhardt/assets/BeyondTheHype.png' | relative_url }}" alt="Beyond the Hype podcast cover" />
+    <img class="podcast-header__img" src="{% include podcast_thumbnail.html page=page %} " alt="Thumbnail image" />
     <div class="podcast-header__info">
       <div class="podcast-header__meta">
         {%- include category_display.html post = page -%}
