@@ -1,5 +1,5 @@
 ---
-title: 'Beyond the Hype: Are Data Mesh and Data Fabric just Marchitecture?'
+title: 'Are Data Mesh and Data Fabric just Marchitecture?'
 date: 2024-04-18 10:35:00 Z
 categories:
 - Podcast
@@ -18,13 +18,12 @@ summary: In this episode, Oliver Cronk, Andrew Carr and David Hope talk about th
   architecture.
 author: ceberhardt
 image: "/uploads/BeyondTheHype---green-and-orange---social---E17.jpg"
+podcast_embed_url: "https://play.libsyn.com/embed/episode/id/30881868/height/64/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
 contributors:
 - ocronk
 - acarr
 - dhope
 ---
-
-<iframe title="Embed Player" src="https://play.libsyn.com/embed/episode/id/30881868/height/192/theme/modern/size/large/thumbnail/yes/custom-color/ffffff/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/252525" height="192" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" style="border: none;"></iframe>
 
 In this episode, Oliver Cronk, Andrew Carr and David Hope talk about the ever-changing world of data, with conversations moving from data warehouse to data lake, and data mesh to data fabric. They discuss the importance of data ownership and common tooling, and their view that data mesh is an approach rather than an architecture.
 

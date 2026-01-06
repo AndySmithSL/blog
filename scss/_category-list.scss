@@ -1,24 +1,69 @@
-@use 'colours';
+@use "colours";
+@use "fonts";
 
 .category-list {
+  a {
+    font-weight: fonts.$font-regular;
+  }
+
+  li {
+    margin: 0.4rem 0;
+    display: inline;
+
     a {
-        font-weight: $font-regular;
+      font-weight: fonts.$font-regular;
     }
-
-    li {
-    	margin: .4rem 0;
-
-    	a {
-    		font-weight: $font-light;
-    	}
-    }
-
-  a:hover {
-    color: colours.$black;
-    border-bottom: 3px solid colours.$teal;
   }
 
   a:visited {
     color: colours.$black;
+  }
+
+  span {
+    border-radius: 32px;
+    padding: 0.2em 1em;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+
+  .pill--teal {
+    background: colours.$light-teal;
+    color: colours.$black;
+
+    &.active,
+    &:hover {
+      background: colours.$teal;
+      color: colours.$white;
+    }
+  }
+  .pill--orange {
+    background: colours.$light-orange;
+    color: colours.$black;
+
+    &.active,
+    &:hover {
+      background: colours.$orange;
+      color: colours.$white;
+    }
+  }
+  .pill--pink {
+    background: colours.$light-pink;
+    color: colours.$black;
+    
+    &.active,
+    &:hover {
+      background: colours.$pink;
+      color: colours.$white;
+    }
+  }
+  .pill--yellow {
+    background: colours.$light-yellow;
+    color: colours.$black;
+
+    &.active,
+    &:hover {
+      background: colours.$yellow;
+      color: colours.$black;
+    }
   }
 }

@@ -1,5 +1,5 @@
 ---
-title: 'Beyond the Hype: Is architecture for AI even necessary?'
+title: 'Is architecture for AI even necessary?'
 date: 2025-03-13 09:53:00 Z
 categories:
 - Podcast
@@ -25,12 +25,11 @@ summary: In this episode, I'm joined by colleagues Jess McEvoy and James Heward,
   and scalable implementations.
 author: ocronk
 image: "/uploads/BeyondTheHype---green-and-yellow---episode-24---social.png"
+podcast_embed_url: "https://play.libsyn.com/embed/episode/id/35656445/height/64/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
 contributors:
 - jheward
 - jmcevoy
 ---
-
-<iframe title="Embed Player" src="https://play.libsyn.com/embed/episode/id/35656445/height/192/theme/modern/size/large/thumbnail/yes/custom-color/ffffff/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/252525" height="192" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" style="border: none;"></iframe>
 
 In this episode, I'm joined by colleagues Jess McEvoy and James Heward, and Atom Bank's Head of AI and Data Science, Russell Collingham, to tackle the provocative question: "Is architecture for AI even necessary?"
 
