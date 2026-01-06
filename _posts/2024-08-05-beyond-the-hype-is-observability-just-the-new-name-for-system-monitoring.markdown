@@ -1,5 +1,5 @@
 ---
-title: 'Beyond the Hype: Is observability just the new name for system monitoring?'
+title: 'Is observability just the new name for system monitoring?'
 date: 2024-08-05 08:05:00 Z
 categories:
 - Podcast
@@ -18,9 +18,8 @@ summary: In this episode, I'm joined for a discussion on observability by Scott 
   of implementing observability at scale.
 author: ocronk
 image: "/uploads/BeyondTheHype---green-and-orange---episode-21---social_Artboard-1.png"
+podcast_embed_url: "https://play.libsyn.com/embed/episode/id/32274287/height/64/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
 ---
-
-<iframe title="Embed Player" src="https://play.libsyn.com/embed/episode/id/32274287/height/192/theme/modern/size/large/thumbnail/yes/custom-color/ffffff/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/252525" height="192" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" style="border: none;"></iframe>
 
 In this episode, I'm joined for a discussion on observability by Scott Rowan, Senior Developer at Scott Logic, and Daniel Gomez Blanco, Principal Engineer at Skyscanner and a member of the Open Telemetry Governance Committee.
 

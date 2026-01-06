@@ -1,5 +1,5 @@
 ---
-title: 'Beyond the Hype: Is the Metaverse built on foundations of hype?'
+title: 'Is the Metaverse built on foundations of hype?'
 date: 2022-11-07 00:00:00 Z
 categories:
 - Podcast
@@ -12,9 +12,9 @@ author: ceberhardt
 contributors:
 - ocronk
 image: "/uploads/BeyondTheHype%20-%20pink%20and%20orange%20-%20episode%207%20-%20social.png"
+podcast_embed_url: "https://play.libsyn.com/embed/episode/id/24907497/height/192/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF"
 ---
 
-<iframe title="Embed Player" src="https://play.libsyn.com/embed/episode/id/24907497/height/192/theme/modern/size/large/thumbnail/yes/custom-color/ffffff/time-start/00:00:00/playlist-height/200/direction/backward/download/yes" height="192" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" style="border: none;"></iframe>
 
 In this episode, I’m joined by my colleague Ollie, and guests [Johanna](https://www.linkedin.com/in/johanna-eiramo-she-her-9b053/) from Finnish National Gallery, and [Lilly](https://www.linkedin.com/in/lillypencheva/), a Blockchain & Web3 Specialist. As we’re discussing quite a challenging and volatile topic, I should state that the opinions raised in this podcast are personal views rather than the views of any current or former employer.
 

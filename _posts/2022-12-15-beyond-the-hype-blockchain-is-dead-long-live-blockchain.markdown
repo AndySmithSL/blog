@@ -1,5 +1,5 @@
 ---
-title: 'Beyond the Hype: Blockchain is dead, long live blockchain'
+title: 'Blockchain is dead, long live blockchain'
 date: 2022-12-15 09:12:00 Z
 categories:
 - Podcast
@@ -13,9 +13,8 @@ contributors:
 - ocronk
 - cprice
 image: "/uploads/BeyondTheHype%20-%20blue%20and%20green%20-%20episode%208%20-%20social.png"
+podcast_embed_url: "https://play.libsyn.com/embed/episode/id/25313580/height/192/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF"
 ---
-
-<iframe title="Embed Player" src="https://play.libsyn.com/embed/episode/id/25313580/height/192/theme/modern/size/large/thumbnail/yes/custom-color/ffffff/time-start/00:00:00/playlist-height/200/direction/backward/download/yes" height="192" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" style="border: none;"></iframe>
 
 In this episode, I’m joined by colleagues Oliver Cronk, Peter Chamberlin and Chris Price for a lively discussion about blockchain. We start by looking at the mechanics of bitcoin, and the economic incentive model formed by proof of work consensus. From there, we discuss enterprise or permission blockchain, which leads us to discuss some specific use cases, for example the oil market supply-chain challenges. We also discuss technologies which are blockchain-like, but prefer not to use that term.
 

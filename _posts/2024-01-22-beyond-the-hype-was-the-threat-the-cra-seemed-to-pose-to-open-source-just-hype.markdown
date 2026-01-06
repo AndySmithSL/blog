@@ -1,5 +1,5 @@
 ---
-title: 'Beyond the Hype: Was the threat the CRA seemed to pose to open source just
+title: 'Was the threat the CRA seemed to pose to open source just
   hype?'
 date: 2024-01-22 17:40:00 Z
 categories:
@@ -21,9 +21,8 @@ summary: In this episode, I'm joined by Rebecca Rumbul, CEO of Rust Foundation, 
   tackle.
 author: ceberhardt
 image: "/uploads/BeyondTheHype---orange-and-yellow---E15---social.png"
+podcast_embed_url: "https://play.libsyn.com/embed/episode/id/29595198/height/192/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
 ---
-
-<iframe title="Embed Player" src="https://play.libsyn.com/embed/episode/id/29595198/height/192/theme/modern/size/large/thumbnail/yes/custom-color/ffffff/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/000000" height="192" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" style="border: none;"></iframe>
 
 In this episode, I'm joined by Rebecca Rumbul, CEO of Rust Foundation, and Mirko Boehm from Linux Foundation Europe. Between them, they have decades of experience in open source.
 
