@@ -1,7 +1,7 @@
 @use "colours";
 @use "util";
 
-@mixin featured-colours($bg-colour, $fg-colour) {
+@mixin featured-colours($bg-colour) {
   .summary {
     background-color: $bg-colour;
     color: white;
@@ -78,15 +78,15 @@
       }
     }
 
-    @include featured-colours(colours.$teal, colours.$teal);
+    @include featured-colours(colours.$teal);
     &.pink {
-      @include featured-colours(colours.$pink, colours.$pink);
+      @include featured-colours(colours.$pink);
     }
     &.orange {
-      @include featured-colours(colours.$orange, colours.$orange);
+      @include featured-colours(colours.$orange);
     }
     &.yellow {
-      @include featured-colours(colours.$yellow, colours.$yellow);
+      @include featured-colours(colours.$yellow);
     }
   }
 }

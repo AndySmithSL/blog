@@ -8,7 +8,7 @@
     }
   }
   .title {
-    color: $colour;
+    color: black;
     a:hover {
       color: colours.$white;
       background-color: $colour;
@@ -29,7 +29,16 @@
 
 .post-summary {
   .category {
-    color: colours.$grey;
+    border-radius: 8px;
+    padding: .2em 1em;
+    line-height: 32px;
+    white-space: nowrap;
+
+    &.active,
+    &:hover {
+      background: colours.$teal;
+      color: colours.$white;
+    }
   }
 
   .title {
@@ -49,13 +58,45 @@
   }
 
   @include article-colour(colours.$teal);
+  .category {
+    background: colours.$teal;
+    color: white;
+    &.active,
+    &:hover {
+      color: black;
+    }
+  }
   &.pink {
     @include article-colour(colours.$pink);
+    .category {
+      background: colours.$pink;
+      color: white;
+      &.active,
+      &:hover {
+        color: black;
+      }
+    }
   }
   &.orange {
     @include article-colour(colours.$orange);
+    .category {
+      background: colours.$orange;
+      color: white;
+      &.active,
+      &:hover {
+        color: black;
+      }
+    }
   }
   &.yellow {
     @include article-colour(colours.$yellow);
+    .category {
+      background: colours.$yellow;
+      color: black;
+      &.active,
+      &:hover {
+        color: white;
+      }
+    }
   }
 }
