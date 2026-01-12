@@ -8,10 +8,10 @@
     }
   }
   .title {
-    color: black;
+    color: colours.$black;
     a:hover {
-      color: colours.$white;
-      background-color: $colour;
+      color: colours.$black;
+      border-bottom: 5px solid $colour;
     }
   }
   .post-summary-social {

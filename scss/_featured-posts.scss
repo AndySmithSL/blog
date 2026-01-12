@@ -6,7 +6,8 @@
     background-color: $bg-colour;
     color: white;
     a:hover {
-      color: black;
+      border-bottom: 5px solid white;
+
     }
   }
   .shape {
