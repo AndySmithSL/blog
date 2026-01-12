@@ -4,8 +4,9 @@
 @mixin featured-colours($bg-colour, $fg-colour) {
   .summary {
     background-color: $bg-colour;
+    color: white;
     a:hover {
-      color: $fg-colour;
+      color: black;
     }
   }
   .shape {
@@ -77,15 +78,15 @@
       }
     }
 
-    @include featured-colours(colours.$light-teal, colours.$teal);
+    @include featured-colours(colours.$teal, colours.$teal);
     &.pink {
-      @include featured-colours(colours.$light-pink, colours.$pink);
+      @include featured-colours(colours.$pink, colours.$pink);
     }
     &.orange {
-      @include featured-colours(colours.$light-orange, colours.$orange);
+      @include featured-colours(colours.$orange, colours.$orange);
     }
     &.yellow {
-      @include featured-colours(colours.$light-yellow, colours.$yellow);
+      @include featured-colours(colours.$yellow, colours.$yellow);
     }
   }
 }

@@ -1,5 +1,4 @@
 {%- assign hideCategory = include.hideCategory -%}
-{%- assign fullWidth = include.fullWidth -%}
 {%- if include.posts != null -%}
   {%- assign posts = include.posts -%}
   {%- assign paginated = false -%}
@@ -15,7 +14,6 @@
         post=post 
         postIndex=forloop.index0
         hideCategory=hideCategory
-        fullWidth=fullWidth
       -%}
     {%- endfor -%}
     {%- if paginated -%}

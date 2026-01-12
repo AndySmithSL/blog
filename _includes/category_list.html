@@ -7,7 +7,7 @@
       <li>
         <a href="{{- site.baseurl -}}{{- category.url -}}">
           <span
-            class="pill--{% include post_colour.html postIndex=forloop.index0 %}{% if selectedCategory == category.title %} active{% endif %}"
+            class="pill {% if selectedCategory == category.title %} active{% endif %}"
           >
             {{- category.title -}}
           </span>

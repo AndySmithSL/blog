@@ -48,7 +48,8 @@
 
   .sub-title {
     margin-bottom: 2rem;
-    font-size: fonts.$baseFontSize * 2;
+    font-size: fonts.$baseFontSize * 1.5;
+    font-weight: normal;
     @include util.breakpoint(large) {
       margin-bottom: 3rem;
     }

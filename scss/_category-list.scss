@@ -26,17 +26,7 @@
     white-space: nowrap;
   }
 
-  .pill--teal {
-    background: colours.$light-teal;
-    color: colours.$black;
-
-    &.active,
-    &:hover {
-      background: colours.$teal;
-      color: colours.$white;
-    }
-  }
-  .pill--orange {
+  .pill  {
     background: colours.$light-orange;
     color: colours.$black;
 
@@ -44,26 +34,6 @@
     &:hover {
       background: colours.$orange;
       color: colours.$white;
-    }
-  }
-  .pill--pink {
-    background: colours.$light-pink;
-    color: colours.$black;
-    
-    &.active,
-    &:hover {
-      background: colours.$pink;
-      color: colours.$white;
-    }
-  }
-  .pill--yellow {
-    background: colours.$light-yellow;
-    color: colours.$black;
-
-    &.active,
-    &:hover {
-      background: colours.$yellow;
-      color: colours.$black;
     }
   }
 }
