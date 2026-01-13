@@ -1,5 +1,11 @@
-{%- assign allPosts = paginator.posts -%}
-{%- if page.pagination.category -%}
+{%- if page.search_page -%}
+  {%- assign allPosts = site.posts -%}
+{%- else -%}
+  {%- assign allPosts = paginator.posts -%}
+{%- endif -%}
+{%- if page.search_page -%}
+  {%- assign categoryName = 'Search' -%}
+{%- elsif page.pagination.category -%}
   {%- assign categoryName = page.pagination.category -%}
 {%- elsif page.pagination.tag == 'video_post' -%}
   {%- assign categoryName = 'Videos' -%}
@@ -21,22 +27,38 @@
         </div>
       </a>
     </h2>
-    <h1 class="sub-title">{{ categoryName }}</h1>
+    <h1 class="sub-title">
+      {{ categoryName }}
+      {%- if page.search_page -%}
+        <span id="search-term-display" class="search-term-display" style="display: none;"> - "<span id="search-term-text"></span>"</span>
+      {%- endif -%}
+    </h1>
   {% endif %}
   <div class="hide-for-large">
     {%- include_cached category_list_compact.html selectedCategoryName=categoryName -%}
   </div>
   <div class="cell grid-x grid-margin-y">
     <div class="cell large-8">
-      {%- if paginator.page < 2 -%}
+      {%- if paginator.page < 2 and page.search_page != true -%}
         {%- include_cached featured_posts.html categoryName=categoryName -%}
       {%- endif -%}
-      {%- include post_summary_list.html -%}
+      {%- if page.search_page -%}
+        <div id="post-summary-list" class="post-summary-list grid-container fluid">
+          <div class="content grid-x">
+            <div id="no-results" class="cell" style="display: none;">
+              <p>No posts found matching your search.</p>
+            </div>
+          </div>
+        </div>
+      {%- else -%}
+        {%- include post_summary_list.html -%}
+      {%- endif -%}
+
     </div>
     <div
       class="side-lists cell large-3 large-offset-1 grid-padding-y grid-margin-y"
     >
-      {%- comment -%}{%- include search.html categoryName=categoryName -%}{%- endcomment -%}
+      {%- include search_bar.html categoryName=categoryName -%}
       {%- include_cached category_list.html selectedCategoryName=categoryName -%}
       {%- include_cached author_list.html -%}
       {%- comment -%}{%- include email_list.html -%}{%- endcomment -%}
@@ -45,3 +67,4 @@
 </div>
 
 {%- include site-footer.html -%}
+

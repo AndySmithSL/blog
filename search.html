@@ -1,0 +1,78 @@
+---
+layout: default
+title: Search
+search_page: true
+---
+
+{%- include post_index.html -%}
+
+<script>
+// Handle search functionality for the search page
+document.addEventListener('DOMContentLoaded', function() {
+  // Get search term from URL parameter
+  const urlParams = new URLSearchParams(window.location.search);
+  const searchTerm = urlParams.get('text');
+  
+  // Display search term if present
+  if (searchTerm) {
+    const searchTermDisplay = document.getElementById('search-term-display');
+    const searchTermText = document.getElementById('search-term-text');
+    if (searchTermDisplay && searchTermText) {
+      searchTermDisplay.style.display = 'inline';
+      searchTermText.textContent = searchTerm;
+    }
+    
+    // Also populate the search input
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) {
+      searchInput.value = searchTerm;
+    }
+  }
+  
+  // Initialize SimpleJekyllSearch with custom configuration for search page
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('post-summary-list'),
+    json: '/search.json',
+    searchResultTemplate: `
+      <div class="post-summary teal grid-margin-y grid-padding-y cell large-12 small-12">
+        <div class="post-summary cell grid-margin-y">
+            <span class="category">
+                <a href="{{- site.baseurl -}}{{- category.url -}}">
+                    {category}
+                </a>
+            </span>
+          <div class="title">
+            <a href="{url}">{title}</a>
+          </div>
+          <div class="cell">
+            {excerpt}
+          </div>
+          <div class="avatar-metadata cell">
+            <div class="post-date">
+              {date}
+            </div>
+            {category}
+          </div>
+        </div>
+      </div>
+    `,
+    noResultsText: '<div class="cell"><p>No posts found matching your search.</p></div>',
+    success: function() {
+      // If there's a search term in the URL, perform the search automatically
+      if (searchTerm) {
+        // Trigger search after SimpleJekyllSearch is initialized
+        setTimeout(function() {
+          const searchInput = document.getElementById('search-input');
+          if (searchInput) {
+            // Dispatch input event to trigger search
+            const event = new Event('input', { bubbles: true });
+            console.log('Dispatching input event to search input.', event);
+            searchInput.dispatchEvent(event);
+          }
+        }, 100);
+      }
+    }
+  });
+});
+</script>

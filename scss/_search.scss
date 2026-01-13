@@ -1,8 +1,12 @@
 @use "colours";
 
 .search-form {
-  background-color: colours.$lighter-grey;
-  border-radius: 8px;
+  background-color: colours.$white;
+  border: 3px solid colours.$grey;
+
+  .input-group {
+    margin-bottom: 0;
+  }
 
   .input-group-label {
     background-color: inherit;
@@ -18,7 +22,6 @@
     -webkit-box-shadow: none;
 
     &::placeholder {
-      font-style: italic;
       color: colours.$grey;
     }
   }
@@ -27,9 +30,8 @@
     padding: 3px;
 
     button {
-      background-color: colours.$light-grey;
+      background-color: colours.$white;
       border: none;
-      border-radius: 8px;
     }
   }
 }
