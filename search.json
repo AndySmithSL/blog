@@ -5,13 +5,24 @@ layout: none
   {% for post in site.posts %}
     {
       "title"    : {{ post.title | jsonify }},
-      "category" : {{ post.category | jsonify }},
+      {%- assign first_post_category = post.categories.first -%}
+      {%- assign category_url = '' -%}
+      {%- assign category_title = first_post_category -%}
+      {%- for category in site.data.categories -%}
+        {%- if first_post_category == category.title -%}
+          {%- assign category_url = category.url -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+      "category_url" : {{ category_url | jsonify }},
+      "category_title": {{ category_title | jsonify }},
       "tags"     : {{ post.tags | join: ', ' | jsonify }},
       "url"      : {{ post.url | jsonify }},
       "date"     : {{ post.date | date: '%B %d, %Y' | jsonify }},
       "author"   : {{ post.author | jsonify }},
       "summary"  : {{ post.summary | jsonify }},
-      "excerpt"  : {{ post.excerpt | strip_html | truncatewords: 30 | jsonify }}
+      "excerpt"  : {{ post.excerpt | strip_html | truncatewords: 30 | jsonify }},
+      "colour"   : "{%- include post_colour.html post=post -%}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

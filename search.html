@@ -5,6 +5,9 @@ search_page: true
 ---
 
 {%- include post_index.html -%}
+{%- capture search_result_template -%}
+{%- include search_result_template.html -%}
+{%- endcapture -%}
 
 <script>
 // Handle search functionality for the search page
@@ -34,30 +37,8 @@ document.addEventListener('DOMContentLoaded', function() {
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('post-summary-list'),
     json: '/search.json',
-    searchResultTemplate: `
-      <div class="post-summary teal grid-margin-y grid-padding-y cell large-12 small-12">
-        <div class="post-summary cell grid-margin-y">
-            <span class="category">
-                <a href="{{- site.baseurl -}}{{- category.url -}}">
-                    {category}
-                </a>
-            </span>
-          <div class="title">
-            <a href="{url}">{title}</a>
-          </div>
-          <div class="cell">
-            {excerpt}
-          </div>
-          <div class="avatar-metadata cell">
-            <div class="post-date">
-              {date}
-            </div>
-            {category}
-          </div>
-        </div>
-      </div>
-    `,
-    noResultsText: '<div class="cell"><p>No posts found matching your search.</p></div>',
+    // Template is processed by Jekyll and converted to JSON string
+    searchResultTemplate: {{ search_result_template | jsonify }},
     success: function() {
       // If there's a search term in the URL, perform the search automatically
       if (searchTerm) {
