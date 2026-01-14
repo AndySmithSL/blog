@@ -1,14 +1,15 @@
 ---
 title: Podcast
 layout: default
-summary: Beyond the Hype is a monthly podcast from the Scott Logic team where we cast a practical eye over what is new and exciting in software development
+summary: Beyond the Hype is a monthly podcast from the Scott Logic team where we cast a practical eye over what is new and exciting in software development. Sorted by most popular
 image: "/assets/blog.png"
-permalink: /category/podcast/
+permalink: /category/podcast/popular/
 pagination:
   enabled: true
   per_page: 4
   category: "Podcast"
   permalink: /:num/
+  sort_field: 'clap_count'
 ---
 {%- include post_index.html -%}
 

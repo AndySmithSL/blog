@@ -1,38 +1,55 @@
 - title: Resources
+  summary:  Scott Logic's white papers and guides
   url: /category/resources/
 
 - title: Cloud
+  summary: Scott Logic's thoughts and ideas relating to Cloud Technologies
   url: /category/cloud/
 
 - title: Tech
+  summary: Scott Logic's thoughts and ideas relating to Tech
   url: /category/tech/
 
 - title: UX Design
+  summary: Scott Logic's thoughts and ideas relating to UX Design
   url: /category/ux/
 
 - title: Delivery
+  summary: Scott Logic's thoughts and ideas relating to Delivery
   url: /category/delivery/
 
 - title: Testing
+  summary: Scott Logic's thoughts and ideas relating to Testing
   url: /category/testing/
 
 - title: Artificial Intelligence
+  summary: Scott Logic's thoughts and ideas relating to Artificial Intelligence
   url: /category/ai/
 
 - title: Sustainability
+  summary: Scott Logic's thoughts and ideas relating to Sustainability
   url: /category/sustainability/
 
 - title: Data Engineering
+  summary: Scott Logic's thoughts and ideas relating to Data Engineering
   url: /category/data-engineering/
 
 - title: People
+  summary: Scott Logic's thoughts and ideas relating to People
   url: /category/people/
 
 - title: Videos
+  summary: Talks and presentations given by the Scott Logic team
   url: /category/videos/
 
 - title: Open Source
+  summary: Scott Logic's thoughts and ideas relating to Open Source
   url: /category/open-source/
 
 - title: Podcast
+  summary: Beyond the Hype is a monthly podcast from the Scott Logic team where we cast a practical eye over what is new and exciting in software development
   url: /category/podcast/
+
+- title: Events
+  summary: Scott Logic's events, webinars and meetups
+  url: /category/events/
