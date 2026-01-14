@@ -1,3 +1,5 @@
+require_relative 'clap_count_hook'
+
 module CustomFilters
     def starts_with(input, start)
         input&.start_with?(start) || false

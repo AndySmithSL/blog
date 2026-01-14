@@ -1,4 +1,9 @@
+{%- if page.url contains '/popular' -%}
+  {%- assign isPopularPage = true -%}
+{%- else -%}
+  {%- assign isPopularPage = false -%}
+{%- endif -%}
 <div class="toggle-buttons">
-  <a href="/" class="btn{%- if include.current_filter == 'latest' %} active{%- endif %}">Latest</a>
-  <a href="/popular/" class="btn{%- if include.current_filter == 'popular' %} active{%- endif %}">Most Popular</a>
+  <a href="/index.html" class="btn{%- unless isPopularPage %} active{%- endunless %}">Latest</a>
+  <a href="/popular" class="btn{%- if isPopularPage %} active{%- endif %}">Most Popular</a>
 </div>
