@@ -19,6 +19,25 @@ categories.each do |category|
   
   # Generate regular category file
   filepath = "category/#{filename}.html"
+  
+  # Special pagination configuration for Videos category
+  pagination_config = if title == "Videos"
+    <<~PAGINATION
+      pagination:
+        enabled: true
+        tag: video_post
+        permalink: /:num/
+    PAGINATION
+  else
+    <<~PAGINATION
+      pagination:
+        enabled: true
+        per_page: 4
+        category: #{title}
+        permalink: /:num/
+    PAGINATION
+  end
+  
   content = <<~TEMPLATE
     ---
     title: #{title}
@@ -26,11 +45,7 @@ categories.each do |category|
     summary: #{summary}
     image: "/assets/blog.png"
     permalink: #{url}
-    pagination:
-      enabled: true
-      per_page: 4
-      category: "#{title}"
-      permalink: /:num/
+    #{pagination_config.strip}
     ---
     {%- include post_index.html -%}
 
@@ -46,6 +61,26 @@ categories.each do |category|
   popular_url = url.chomp('/') + '/popular/'
   popular_summary = summary + '. Sorted by most popular'
   
+  # Special pagination configuration for Videos category (popular)
+  popular_pagination_config = if title == "Videos"
+    <<~PAGINATION
+      pagination:
+        enabled: true
+        tag: video_post
+        permalink: /:num/
+        sort_field: 'clap_count'
+    PAGINATION
+  else
+    <<~PAGINATION
+      pagination:
+        enabled: true
+        per_page: 4
+        category: #{title}
+        permalink: /:num/
+        sort_field: 'clap_count'
+    PAGINATION
+  end
+  
   popular_content = <<~TEMPLATE
     ---
     title: #{title}
@@ -53,12 +88,7 @@ categories.each do |category|
     summary: #{popular_summary}
     image: "/assets/blog.png"
     permalink: #{popular_url}
-    pagination:
-      enabled: true
-      per_page: 4
-      category: "#{title}"
-      permalink: /:num/
-      sort_field: 'clap_count'
+    #{popular_pagination_config.strip}
     ---
     {%- include post_index.html -%}
 
