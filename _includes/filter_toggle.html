@@ -1,17 +1,20 @@
 {%- if page.url contains '/popular' -%}
   {%- assign isPopularPage = true -%}
-  {%- assign baseUrl = page.url | replace: '/popular', '' -%}
+  {%- assign latestUrl = page.url | replace: '/popular', '' | replace: '/index.html', '/' -%}
+  {%- assign popularUrl = '/popular/' -%}
 {%- else -%}
   {%- assign isPopularPage = false -%}
-  {%- assign baseUrl = page.url -%}
-{%- endif -%}
-
-{%- assign cleanBaseUrl = baseUrl | replace: '/index.html', '/' | replace: 'index.html', '/' -%}
-{%- if cleanBaseUrl == '/' -%}
-  {%- assign cleanBaseUrl = '' -%}
+  {%- assign cleanUrl = page.url | replace: '/index.html', '/' -%}
+  {%- if cleanUrl == '/' -%}
+    {%- assign latestUrl = '/' -%}
+    {%- assign popularUrl = '/popular/' -%}
+  {%- else -%}
+    {%- assign latestUrl = cleanUrl -%}
+    {%- assign popularUrl = cleanUrl | append: 'popular/' -%}
+  {%- endif -%}
 {%- endif -%}
 
 <div class="toggle-buttons">
-  <a href="{{ cleanBaseUrl }}" class="btn{%- unless isPopularPage %} active{%- endunless %}">Latest</a>
-  <a href="{{ cleanBaseUrl }}/popular/" class="btn{%- if isPopularPage %} active{%- endif %}">Most Popular</a>
+  <a href="{{ latestUrl }}" class="btn{%- unless isPopularPage %} active{%- endunless %}">Latest</a>
+  <a href="{{ popularUrl }}" class="btn{%- if isPopularPage %} active{%- endif %}">Most Popular</a>
 </div>
