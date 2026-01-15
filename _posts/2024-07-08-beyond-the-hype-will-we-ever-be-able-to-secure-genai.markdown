@@ -21,6 +21,8 @@ summary: In this episode, I'm joined by Doro Hinrichs and Kira Clark from Scott 
 author: ocronk
 image: "/uploads/BeyondTheHype---green-and-pink---episode-20---social.png"
 podcast_embed_url: "https://play.libsyn.com/embed/episode/id/32044872/height/64/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
+podcast_spotify_url: https://open.spotify.com/episode/7G1TMo3bJSOGf7ZdDusrDZ?si=757e9024ddd54608
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/will-we-ever-be-able-to-secure-genai/id1612265563?i=1000661515896
 contributors:
 - dhinrichs
 - kclark

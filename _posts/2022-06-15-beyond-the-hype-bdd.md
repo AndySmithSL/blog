@@ -15,6 +15,8 @@ contributors:
 image: "/uploads/BeyondTheHype%20-%20green%20and%20green%20-%20episode%204%20-%20social.png"
 layout: default_post
 podcast_embed_url: "//play.libsyn.com/embed/episode/id/23149460/height/192/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF"
+podcast_spotify_url: https://open.spotify.com/episode/5sE96kXOZXhPIs7iePpfMm?si=96fa1b949e0a4f1c
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/behaviour-driven-development-hype-or-just-misunderstood/id1612265563?i=1000565339785
 ---
 
 In this month’s episode we talk about Behaviour Driven Development (BDD), a testing practice where system behaviours are captured in a human readable Domain Specific Language (DSL), which are automated and executed.

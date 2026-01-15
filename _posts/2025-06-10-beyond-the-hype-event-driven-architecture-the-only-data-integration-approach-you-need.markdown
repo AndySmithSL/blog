@@ -21,6 +21,8 @@ summary: In this episode, I dive into the world of Event-Driven Architecture (ED
 author: ocronk
 image: "/uploads/BeyondTheHype---pink-and-pink---episode-27---social.jpg"
 podcast_embed_url: "https://play.libsyn.com/embed/episode/id/36922790/height/64/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
+podcast_spotify_url: https://open.spotify.com/episode/66xuM16qKJkP3XdBscL7OJ?si=4aca695a1a5548a5 
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/event-driven-architecture-the-only-data-integration/id1612265563?i=1000712214063
 ---
 
 In this episode, I dive into the world of Event-Driven Architecture (EDA) with Tom Fairbairn from Solace and Scott Logic’s Gordon Campbell. The discussion explores whether EDA has matured beyond the hype into a practical strategy for modern systems integration, or if it’s just another architectural buzzword.

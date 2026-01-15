@@ -18,8 +18,9 @@ summary: In this episode – the second of a two-parter – we talk to Denis Man
   the Y2K issue we faced over twenty years ago.
 author: ceberhardt
 image: "/uploads/BeyondTheHype%20-%20blue%20and%20orange%20-%20episode%2011%20-%20social.png"
-podcast_embed_url: "https://play.libsyn.com/embed/episode/id/26350203/height/192/
-theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
+podcast_embed_url: "https://play.libsyn.com/embed/episode/id/26350203/height/192/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
+podcast_spotify_url: https://open.spotify.com/episode/7pypsUWaujewWeuQm8ZYk3?si=792ff838ffe14815
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/y2q-the-end-of-encryption-as-we-know-it/id1612265563?i=1000607073326
 contributors:
 - ocronk
 ---

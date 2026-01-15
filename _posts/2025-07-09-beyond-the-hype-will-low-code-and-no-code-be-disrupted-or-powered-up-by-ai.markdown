@@ -21,6 +21,8 @@ summary: In this episode of Beyond the Hype, Oliver Cronk is joined by Ani Allen
 author: ocronk
 image: "/uploads/BeyondTheHype---orange-and-orange---episode-28---social.jpg"
 podcast_embed_url: "https://play.libsyn.com/embed/episode/id/37273210/height/64/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
+podcast_spotify_url: https://open.spotify.com/episode/4vtN0HVeU0tu8t3DX1h7FE?si=da5f8d7a0f694860
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/will-low-code-and-no-code-be-disrupted-or-powered-up-by-ai/id1612265563?i=1000716447995 
 ---
 
 In this episode, I'm joined by Ani Allen from OutSystems and Ryan Grey from Marra to discuss the evolving landscape of Low-Code, No-Code, and AI-assisted development. With backgrounds spanning neuroscience, enterprise software, and consultancy, my guests bring a rich mix of perspectives to a conversation that cuts through the hype.

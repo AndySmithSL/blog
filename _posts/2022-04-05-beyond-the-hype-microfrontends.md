@@ -24,6 +24,8 @@ contributors:
 image: "/uploads/BeyondTheHype%20-%20pink%20and%20pink%20-%20episode%202%20-%20social.png"
 layout: default_post
 podcast_embed_url: "//play.libsyn.com/embed/episode/id/22367951/height/192/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF"
+podcast_spotify_url: https://open.spotify.com/episode/4FbanYon0ouGUz8FAKLh8n?si=c21010586410443e
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/do-you-actually-need-a-micro-frontend/id1612265563?i=1000556158465
 ---
 
 A relatively new architectural style for building web-based applications, micro-frontends are an extension of the popular microservices pattern where the vertical slice of functionality that a microservice provides is extended all the way to the front-end. With micro-frontends, you can more easily scale your development teams by composing applications from loosely coupled frontend components.

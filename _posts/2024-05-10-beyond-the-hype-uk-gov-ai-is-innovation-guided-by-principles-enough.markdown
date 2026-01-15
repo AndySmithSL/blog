@@ -19,6 +19,8 @@ summary: In this episode, I'm joined by Jess McEvoy and Peter Chamberlin for a d
 author: ceberhardt
 image: "/uploads/BeyondTheHype%20-%20green%20and%20blue%20-%20episode%2018.jpg"
 podcast_embed_url: "https://play.libsyn.com/embed/episode/id/31228342/height/64/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
+podcast_spotify_url: https://open.spotify.com/episode/550liCJKugc3KIw9ltJhgM?si=e0b32e2724a34100 
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/uk-gov-ai-is-innovation-guided-by-principles-enough/id1612265563?i=1000655156646
 contributors:
 - jmcevoy
 - pchamberlin

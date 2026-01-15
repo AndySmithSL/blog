@@ -22,6 +22,8 @@ summary: In this episode, I'm joined by colleagues David Rees, Hélène Sauvé, 
 author: ocronk
 image: "/uploads/BeyondTheHype---orange-and-yellow---episode-25---social.jpg"
 podcast_embed_url: "https://play.libsyn.com/embed/episode/id/36007370/height/64/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
+podcast_spotify_url: https://open.spotify.com/episode/14IHFEg00dvQXMFRkuk14P?si=354eb38a0ba44205 
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/should-fully-autonomous-ai-agents-be-developed/id1612265563?i=1000703623717 
 contributors:
 - drees
 - hsauve

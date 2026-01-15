@@ -27,6 +27,8 @@ summary: In this episode, I'm joined by Scott Logic’s Sophia Ashley and Alix D
 author: ocronk
 image: "/uploads/BeyondTheHype---blue-and-blue---episode-26---social.jpg"
 podcast_embed_url: "https://play.libsyn.com/embed/episode/id/36467125/height/64/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
+podcast_spotify_url: https://open.spotify.com/episode/7JZQPdkFAWTlb0yZFVl8X3?si=2997f54092084a4e 
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/does-innovation-have-to-come-at-the-expense-of-ethics/id1612265563?i=1000708079159 
 ---
 
 In this episode, I'm joined by Scott Logic’s Sophia Ashley and Alix Dunn from the ‘Computer Says Maybe’ podcast for a wide-ranging discussion that poses ethical questions frequently ignored in the race for technological innovation.

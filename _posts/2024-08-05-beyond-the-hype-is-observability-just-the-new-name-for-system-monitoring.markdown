@@ -19,6 +19,8 @@ summary: In this episode, I'm joined for a discussion on observability by Scott 
 author: ocronk
 image: "/uploads/BeyondTheHype---green-and-orange---episode-21---social_Artboard-1.png"
 podcast_embed_url: "https://play.libsyn.com/embed/episode/id/32274287/height/64/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
+podcast_spotify_url: https://open.spotify.com/episode/5XIVANeinAmRpxPABjPGo2?si=a90ba70d244a4b8e
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/is-observability-just-the-new-name-for-system-monitoring/id1612265563?i=1000664340758
 ---
 
 In this episode, I'm joined for a discussion on observability by Scott Rowan, Senior Developer at Scott Logic, and Daniel Gomez Blanco, Principal Engineer at Skyscanner and a member of the Open Telemetry Governance Committee.

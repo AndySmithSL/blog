@@ -19,6 +19,8 @@ summary: In this episode, Oliver Cronk is joined by experts including Jeremy Axe
 author: ceberhardt
 image: "/uploads/BeyondTheHype---pink-and-orange---social---E16.jpg"
 podcast_embed_url: "https://play.libsyn.com/embed/episode/id/30015853/height/192/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
+podcast_spotify_url: https://open.spotify.com/episode/3xxGkhZqEwpo5HaQ0ZcrBK?si=c7ccba97aa844bfa
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/can-technology-sustainability-really-make-a-difference/id1612265563?i=1000645882145
 contributors:
 - ocronk
 - kdavis

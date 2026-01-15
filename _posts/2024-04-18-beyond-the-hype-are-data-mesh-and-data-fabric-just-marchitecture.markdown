@@ -19,6 +19,8 @@ summary: In this episode, Oliver Cronk, Andrew Carr and David Hope talk about th
 author: ceberhardt
 image: "/uploads/BeyondTheHype---green-and-orange---social---E17.jpg"
 podcast_embed_url: "https://play.libsyn.com/embed/episode/id/30881868/height/64/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
+podcast_spotify_url: https://open.spotify.com/episode/3c5jz5qLsXyusy5tYK2RFr?si=bf4e356a78504ea6
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/are-data-mesh-and-data-fabric-just-marchitecture/id1612265563?i=1000652849409
 contributors:
 - ocronk
 - acarr

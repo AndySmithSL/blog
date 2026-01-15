@@ -19,6 +19,8 @@ summary: In this episode of Beyond the Hype, I'm joined by Bradon Rogers from Is
 author: ocronk
 image: "/uploads/BeyondTheHype---pink-and-yellow---episode-23---social.png"
 podcast_embed_url: "https://play.libsyn.com/embed/episode/id/35100795/height/64/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF"
+podcast_spotify_url: https://open.spotify.com/episode/1YceHZMtfo6h8QAeDWbFV7?si=c8c9b7cb2afa4404
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/are-enterprise-browsers-just-about-security/id1612265563?i=1000690775181 
 contributors:
 - dkerr
 - rwilliams

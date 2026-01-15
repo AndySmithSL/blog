@@ -16,6 +16,8 @@ summary: In this episode, I’m joined by Technology Lead Andrew Carr and CTO Co
 author: ocronk
 image: "/uploads/Technology%20Strategies-%20BTH.png"
 podcast_embed_url: "https://play.libsyn.com/embed/episode/id/35030535/height/64/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
+podcast_spotify_url: https://open.spotify.com/episode/5F1uZ9UfGAyOJLqStrQkaZ?si=c86bdc462fc44f90 
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/technology-strategies-essential-roadmaps-or-just-hype/id1612265563?i=1000685787062
 contributors:
 - ceberhardt
 - acarr

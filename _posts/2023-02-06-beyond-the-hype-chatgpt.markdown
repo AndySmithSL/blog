@@ -16,6 +16,8 @@ summary: In this episode, I'm joined by my colleague, Oliver Cronk, and Chris Bo
 author: ceberhardt
 image: "/uploads/BeyondTheHype%20-%20blue%20and%20yellow%20-%20episode%209%20-%20social.png"
 podcast_embed_url: "https://play.libsyn.com/embed/episode/id/25745451/height/192/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF"
+podcast_spotify_url: https://open.spotify.com/episode/4ZpoKNKaMYwnWGpEsCDX4i?si=386f958c90ea4f3e
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/chatgpt-and-why-it-has-set-the-internet-alight/id1612265563?i=1000598205594
 contributors:
 - ocronk
 ---

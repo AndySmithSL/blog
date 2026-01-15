@@ -14,6 +14,8 @@ contributors:
 - cprice
 image: "/uploads/BeyondTheHype%20-%20blue%20and%20green%20-%20episode%208%20-%20social.png"
 podcast_embed_url: "https://play.libsyn.com/embed/episode/id/25313580/height/192/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF"
+podcast_spotify_url: https://open.spotify.com/episode/0JX5k5yK2i8ynVwQTQMQJx?si=239889451a8c471c
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/blockchain-is-dead-long-live-blockchain/id1612265563?i=1000590256774
 ---
 
 In this episode, I’m joined by colleagues Oliver Cronk, Peter Chamberlin and Chris Price for a lively discussion about blockchain. We start by looking at the mechanics of bitcoin, and the economic incentive model formed by proof of work consensus. From there, we discuss enterprise or permission blockchain, which leads us to discuss some specific use cases, for example the oil market supply-chain challenges. We also discuss technologies which are blockchain-like, but prefer not to use that term.

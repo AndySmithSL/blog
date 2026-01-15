@@ -13,6 +13,8 @@ contributors:
 - asegrove
 image: "/uploads/BeyondTheHype%20-%20yellow%20and%20yellow%20-%20episode%205%20-%20social.png"
 podcast_embed_url: "//play.libsyn.com/embed/episode/id/23292824/height/192/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF"
+podcast_spotify_url: https://open.spotify.com/episode/2Wddx8pAymb9WWvXya1jGe?si=25eaf534eccf4cb5
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/investing-in-innovation-and-avoiding-the-hype-in/id1612265563?i=1000568716265
 ---
 
 In this month’s episode, we tackle a wide range of topics relating to the role of technology innovation, and the perils of hyped technology, within Digital Government.
