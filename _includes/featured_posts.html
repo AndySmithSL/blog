@@ -13,7 +13,11 @@
 {%- if numPosts > 0 -%}
   <div class="featured-posts grid-x grid-margin-x grid-margin-y">
     {% assign randIdx = "now" | date: "%N" | modulo: 4 %} 
-    {%- assign postsToShow = featuredPosts | slice: 0, 2 -%}
+    {%- if page.url == '/' or page.url == '/index.html' -%}
+      {%- assign postsToShow = featuredPosts | slice: 0, 2 -%}
+    {%- else -%}
+      {%- assign postsToShow = featuredPosts | slice: 0, 1 -%}
+    {%- endif -%}
     {%- for post in postsToShow -%}
       {%- assign colourIndex = randIdx | plus: forloop.index0 -%}
       <div

@@ -13,6 +13,7 @@
       <p>
         {{- author['author-summary'] -}}
       </p>
+      <a href="{{- site.baseurl -}}/{{- author-id -}}">More from {{ author.name | split: ' ' | first }}</a>
     {%- endif -%}
   </div>
 </div>

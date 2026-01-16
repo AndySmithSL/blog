@@ -13,6 +13,8 @@ contributors:
 - ocronk
 image: "/uploads/BeyondTheHype%20-%20pink%20and%20orange%20-%20episode%207%20-%20social.png"
 podcast_embed_url: "https://play.libsyn.com/embed/episode/id/24907497/height/192/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF"
+podcast_spotify_url: https://open.spotify.com/episode/6UtqRbH4AFDRvFle0DkUp0?si=82713d4df40e46da
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/is-the-metaverse-built-on-foundations-of-hype/id1612265563?i=1000585295299
 ---
 
 
