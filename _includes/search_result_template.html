@@ -16,11 +16,23 @@ but uses SimpleJekyllSearch placeholders like {title}, {url}, etc.
       {excerpt}
     </div>
     <div class="avatar-metadata cell">
-      {%- include_cached author_picture.html author=author -%}
-      {%-
-        include post_metadata.html
-        post=post
-      -%}
+      <img src="{{- site.baseurl -}}/{author_id}/{author_picture}" role="presentation" alt="{author_name}">
+        <div>
+          <span>
+            {contributors_names}
+          </span>
+          <br>
+          <span class="timestamp" date-published="{{- date -}}">
+            {date}
+          </span>
+          {%- unless layout == 'video_post' -%}
+            <span>&middot;</span>
+            <span>
+              {reading_time}
+            </span>
+          {%- endunless -%}
+        </div>
+
     </div>
   </div>
 </div>

@@ -40,7 +40,7 @@
   <div class="cell grid-x grid-margin-y">
     <div class="cell large-8">
       {%- if paginator.page < 2 and page.search_page != true -%}
-        {%- include_cached featured_posts.html categoryName=categoryName -%}
+        {% include_cached featured_posts.html categoryName=categoryName %}
       {%- endif -%}
       {%- if page.search_page -%}
         <div id="post-summary-list" class="post-summary-list grid-container fluid">

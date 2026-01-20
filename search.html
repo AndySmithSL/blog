@@ -12,9 +12,44 @@ search_page: true
 <script>
 // Handle search functionality for the search page
 document.addEventListener('DOMContentLoaded', function() {
+  console.log('DEBUG: DOM loaded, starting search initialization');
+  
+  // Check if required elements exist
+  const searchInput = document.getElementById('search-input');
+  const resultsContainer = document.getElementById('post-summary-list');
+  const searchTermDisplay = document.getElementById('search-term-display');
+  const searchTermText = document.getElementById('search-term-text');
+  
+  console.log('DEBUG: Elements found:', {
+    searchInput: !!searchInput,
+    resultsContainer: !!resultsContainer,
+    searchTermDisplay: !!searchTermDisplay,
+    searchTermText: !!searchTermText
+  });
+  
+  if (!searchInput) {
+    console.error('DEBUG: Search input element not found! Expected ID: search-input');
+  }
+  if (!resultsContainer) {
+    console.error('DEBUG: Results container not found! Expected ID: post-summary-list');
+  }
+  
   // Get search term from URL parameter
   const urlParams = new URLSearchParams(window.location.search);
   const searchTerm = urlParams.get('text');
+  
+  console.log('DEBUG: URL search term:', searchTerm);
+  
+  // Test loading search.json
+  fetch('/search.json')
+    .then(response => response.json())
+    .then(data => {
+      console.log('DEBUG: search.json loaded successfully with', data.length, 'posts');
+      console.log('DEBUG: First post sample:', data[0]);
+    })
+    .catch(error => {
+      console.error('DEBUG: Failed to load search.json:', error);
+    });
   
   // Display search term if present
   if (searchTerm) {
@@ -33,27 +68,84 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   // Initialize SimpleJekyllSearch with custom configuration for search page
-  SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('post-summary-list'),
-    json: '/search.json',
-    // Template is processed by Jekyll and converted to JSON string
-    searchResultTemplate: {{ search_result_template | jsonify }},
-    success: function() {
-      // If there's a search term in the URL, perform the search automatically
-      if (searchTerm) {
-        // Trigger search after SimpleJekyllSearch is initialized
-        setTimeout(function() {
-          const searchInput = document.getElementById('search-input');
-          if (searchInput) {
-            // Dispatch input event to trigger search
-            const event = new Event('input', { bubbles: true });
-            console.log('Dispatching input event to search input.', event);
-            searchInput.dispatchEvent(event);
-          }
-        }, 100);
+  console.log('DEBUG: Initializing SimpleJekyllSearch with template');
+  
+  var searchTemplate = {{ search_result_template | jsonify }};
+  
+  // First, load and preprocess the search data
+  fetch('/search.json')
+    .then(response => response.json())
+    .then(function(data) {
+      console.log('DEBUG: search.json loaded for preprocessing with', data.length, 'posts');
+      
+      // Preprocess data to ensure all searchable fields are strings
+      if (Array.isArray(data)) {
+        data = data.map(function(item) {
+          const cleanedItem = {};
+          Object.keys(item).forEach(function(key) {
+            const value = item[key];
+            // Convert all values to strings, handling null/undefined
+            cleanedItem[key] = (value === null || value === undefined) ? '' : String(value);
+          });
+          return cleanedItem;
+        });
+        
+        console.log('DEBUG: Data preprocessing complete');
+        if (data.length > 0) {
+          console.log('DEBUG: First item keys:', Object.keys(data[0]));
+          // Check for non-string values that might cause trim issues
+          Object.entries(data[0]).forEach(([key, value]) => {
+            if (value !== null && value !== undefined && typeof value !== 'string') {
+              console.warn('DEBUG: Non-string value found after preprocessing:', key, '=', value, '(type:', typeof value, ')');
+            }
+          });
+        }
       }
-    }
-  });
+      
+      // Now initialize SimpleJekyllSearch with cleaned data
+      try {
+        window.simpleJekyllSearchInstance = SimpleJekyllSearch({
+          searchInput: document.getElementById('search-input'),
+          resultsContainer: document.getElementById('post-summary-list'),
+          json: data, // Use preprocessed data directly
+          searchResultTemplate: {{ search_result_template | jsonify }},
+          noResultsText: 'No results found',
+          templateMiddleware: function(prop, value, template) {
+            // Double-check that value is a string before processing
+            if (value === null || value === undefined) {
+              return '';
+            }
+            const stringValue = String(value);
+            return stringValue;
+          }
+        });
+        
+        console.log('DEBUG: SimpleJekyllSearch initialized successfully with cleaned data');
+        
+        // If there's a search term in the URL, perform the search automatically
+        if (searchTerm) {
+          console.log('DEBUG: Auto-searching for term:', searchTerm);
+          // Trigger search after SimpleJekyllSearch is initialized
+          setTimeout(function() {
+            const searchInput = document.getElementById('search-input');
+            if (searchInput) {
+              console.log('DEBUG: Found search input, dispatching event');
+              // Dispatch input event to trigger search
+              const event = new Event('input', { bubbles: true });
+              console.log('Dispatching input event to search input.', event);
+              searchInput.dispatchEvent(event);
+            } else {
+              console.error('DEBUG: Search input element not found!');
+            }
+          }, 100);
+        }
+      } catch (error) {
+        console.error('DEBUG: Error initializing SimpleJekyllSearch:', error);
+        console.error('DEBUG: Error stack:', error.stack);
+      }
+    })
+    .catch(function(error) {
+      console.error('DEBUG: Failed to load search.json:', error);
+    });
 });
 </script>

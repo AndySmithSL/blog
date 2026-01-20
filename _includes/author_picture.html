@@ -21,6 +21,11 @@
   {%- else -%}
     <img src="{{- site.baseurl -}}/assets/avatar.png" role="presentation" alt="">
   {%- endif -%}
+{%- else if include.author_id and include.author_picture -%}
+  <img       
+    src="{{- site.baseurl -}}/{{- include.author_id -}}/{{- include.author_picture -}}" 
+    role="presentation" 
+    alt="">
 {%- else -%}
   <img src="{{- site.baseurl -}}/assets/avatar.png" role="presentation" alt="">
 {%- endif -%}
