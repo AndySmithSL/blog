@@ -64,6 +64,7 @@ exclude:
   - PULL_REQUEST_TEMPLATE
   - README.md
   - README-DEV.md
+  - container_gem_cache
   - gems
   - generate_pa11y_ci_urls_from_git_diff.sh
   - lintPosts.js
@@ -93,3 +94,6 @@ hook_exec:
         env:
           BASE_URL: "{{ site.baseurl }}"
         cmd: "./node_modules/.bin/rspack build"
+
+# Related posts configuration
+related_limit: 4

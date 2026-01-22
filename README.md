@@ -86,8 +86,6 @@ rebuild.
 
 ### Run the blog locally
 
-By far the easiest route is to use Docker: if you have it installed, you can [skip ahead][run-docker] now!
-
 The blog consists of static HTML pages with content generated using:
 
 - [github-pages][ruby-github-pages] for deployment hooks
@@ -152,6 +150,13 @@ bundle install
 
 Finally, run `bundle exec jekyll -v` to check whether Jekyll is working. If so, you're good to run the blog!
 
+If you are working on fixes or new features, you can use these npm scripts:
+
+```shell
+npm ci           # Install deps
+npm run prettier # Format non-post files
+```
+
 #### Running in the native environment
 
 Once you've got all the prerequisites for your operating system, you can run the blog.
@@ -165,46 +170,12 @@ See [jekyll's docs](https://jekyllrb.com/docs/configuration/options/) for comman
 
 The blog will then be available on [localhost][localhost].
 
-If you are working on fixes or new features, you can use these npm scripts:
-
-```shell
-npm ci           # Install deps
-npm run prettier # Format non-post files
-```
-
 ##### Useful Command Line Flags for Jekyll
 
 - `--livereload` - trigger a build on file change (excluding SCSS or JS) and refresh the brower once built
 
 - `--incremental` - use the experimental incremental build mode which after the initial build, only builds changed files
 - `RUBYOPT="--yjit"` - let ruby use its JIT (only macOS, Linux and BSD on x86-64 and arm64/aarch64 CPUs are supported)
-
-### Running with Docker
-
-Use a bash-compatible shell; Git bash on Windows should work fine.
-
-#### Install gem dependencies
-
-First, we output gem dependencies to directory `container_gem_cache` on the host machine. This is analogous to running
-"npm install" for a npm package:
-
-```shell
-./shell/docker-gem-install.sh
-```
-
-#### Run in watch mode
-
-Now we can serve the blog with live reloading. Replace "jbloggs" with your ScottLogic username:
-
-```shell
-BLOG_USERNAME=jbloggs ./shell/docker-dev-watch.sh
-```
-
-It'll take a while to build first time, but once it's done you should see message "done in XXX.YYY seconds".
-Then you can navigate to [localhost][localhost] in your browser.
-
-Note that if you performed a _sparse checkout_ as recommended, and if this is your first post, then you won't see any
-blog posts when the site loads unless you've already added a file for your new blog post.
 
 ## CI/CD
 
@@ -245,7 +216,6 @@ changes. This workflow runs only on a manual dispatch on the `gh-pages` branch.
 [confluence-getting-started]: https://scottlogic.atlassian.net/wiki/spaces/INT/pages/3577479175/Getting+started+with+the+Scott+Logic+blog
 
 [github-pages]: https://pages.github.com/
-[run-docker]: #running-with-docker
 [jekyll-docs]: https://jekyllrb.com/docs/
 [kramdown-syntax]: https://kramdown.gettalong.org/syntax.html
 [localhost]: http://localhost:4000
