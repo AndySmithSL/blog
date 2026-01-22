@@ -1,0 +1,28 @@
+{%- assign author = site.data.authors.authors[post.author] -%}
+{%- assign postColour = "" -%}
+{%- capture postColour -%}{%- include post_colour.html post=post postIndex=include.postIndex -%}{%- endcapture -%}
+
+<div class="related-post {{ postColour }}">
+    <span class="category">
+      {%- if post.categories.size > 0 -%}
+        {{- post.categories[0] -}}
+      {%- endif -%}
+    </span>
+    <div class="title">
+      <a href="{{- site.baseurl -}}{{- post.url -}}">{{- post.title -}}</a>
+    </div>
+    <div class="content">
+      {%- if post.summary -%}
+        {{- post.summary | truncatewords: 10 -}}
+      {%- else -%}
+        {{- post.content | strip_html | truncatewords: 10 -}}
+      {%- endif -%}
+    </div>
+    <div class="avatar-metadata">
+      {%- include_cached author_picture.html author=author -%}
+      {%-
+        include post_metadata.html
+        post=post
+      -%}
+    </div>
+</div>

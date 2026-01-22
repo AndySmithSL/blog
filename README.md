@@ -108,7 +108,8 @@ Thorough instructions for setting up your development environment are detailed b
 
 First, install Ruby and (if on Linux) a few build dependencies for Nokogiri.
 
-On Linux:
+On Linux (or using WSL): 
+
 
 ```shell
 sudo apt-get install ruby2.3 ruby2.3-dev build-essential dh-autoreconf libxslt-dev libxml2-dev zlib1g-dev
