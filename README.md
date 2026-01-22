@@ -84,6 +84,10 @@ in the future, if you don't want your post to appear immediately.
 Once you have your skeleton file in place, you can run the blog and start writing. Saving changes should trigger a
 rebuild.
 
+### Adding a new category.
+
+Categories can be ordered by date (default - most recent first), and by popularity (claps). To add a new one, add the entry to  `_data/categories.yml`. Then run the `generate_cateogry_templates` script and this will create two entries inside the directory `categories` which allows two different sortings by jekyll.
+
 ### Run the blog locally
 
 The blog consists of static HTML pages with content generated using:
