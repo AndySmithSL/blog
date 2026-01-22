@@ -163,7 +163,7 @@
         margin-bottom: 1rem;
     
           .category {
-            font-size: fonts.$baseFontSize * 0.5;
+            font-size: fonts.$baseFontSize * 0.8;
             margin-bottom: 0.25rem;
           }
 
@@ -188,39 +188,7 @@
             opacity: 0.8;
           }
         }
-
-        &.teal .title {
-          color: colours.$teal;
-        }
-        
-        &.orange .title {
-          color: colours.$orange;
-        }
-        
-        &.pink .title {
-          color: colours.$pink;
-        }
-        
-        &.yellow .title {
-          color: colours.$yellow;
-        }
       }
-    }
-
-    &.teal .title {
-      color: colours.$teal;
-    }
-    
-    &.orange .title {
-      color: colours.$orange;
-    }
-    
-    &.pink .title {
-      color: colours.$pink;
-    }
-    
-    &.yellow .title {
-      color: colours.$yellow;
     }
   }
 
