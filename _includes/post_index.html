@@ -64,7 +64,9 @@
       {%- endunless -%}
       {%- include_cached category_list.html selectedCategoryName=categoryName -%}
       {%- include_cached author_list.html -%}
-      {%- comment -%}{%- include email_list.html -%}{%- endcomment -%}
+      <!-- TODO:AS -->
+      <!-- {%- comment -%}{%- include email_list.html -%}{%- endcomment -%} -->
+      {%- include email_list.html -%}
     </div>
   </div>
 </div>
