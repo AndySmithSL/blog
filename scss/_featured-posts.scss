@@ -1,10 +1,13 @@
-@use 'colours';
+@use "colours";
+@use "util";
 
-@mixin featured-colours($bg-colour, $fg-colour) {
+@mixin featured-colours($bg-colour) {
   .summary {
     background-color: $bg-colour;
+    color: white;
     a:hover {
-      color: $fg-colour;
+      border-bottom: 5px solid white;
+      color: white;
     }
   }
   .shape {
@@ -17,34 +20,31 @@
 .avatar-metadata {
   z-index: 1;
   margin-top: 0.75rem;
-  div, img {
-      display: inline-block;
-      vertical-align: middle;
+  div,
+  img {
+    display: inline-block;
+    vertical-align: middle;
   }
   img {
-      border-radius: 50%;
-      max-height: 3rem;
-      max-width: 3rem;
-      margin-right: 0.25rem;
-      filter: grayscale(100%);
-      object-fit: cover;
-      height: 100%;
-      width: 100%;
-  }
-  @include breakpoint(large) {
-    margin-right: -75%;
+    border-radius: 50%;
+    max-height: 3rem;
+    max-width: 3rem;
+    margin-right: 0.25rem;
+    filter: grayscale(100%);
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
   }
 }
 
 .featured-posts {
-
   margin-bottom: 1rem;
 
   .featured-post {
     height: 100%;
 
     .summary {
-      padding: 2rem;
+      padding: 2rem 0 2rem 2rem;
 
       h3 > a {
         margin-right: 1.5rem;
@@ -79,15 +79,15 @@
       }
     }
 
-    @include featured-colours(colours.$light-teal, colours.$teal);
+    @include featured-colours(colours.$teal);
     &.pink {
-      @include featured-colours(colours.$light-pink, colours.$pink);
+      @include featured-colours(colours.$pink);
     }
     &.orange {
-      @include featured-colours(colours.$light-orange, colours.$orange);
+      @include featured-colours(colours.$orange);
     }
     &.yellow {
-      @include featured-colours(colours.$light-yellow, colours.$yellow);
+      @include featured-colours(colours.$yellow);
     }
   }
 }

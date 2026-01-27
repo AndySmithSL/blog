@@ -1,5 +1,5 @@
 ---
-title: 'Beyond the Hype: Most-loved language – does Rust justify the hype?'
+title: 'Most-loved language – does Rust justify the hype?'
 date: 2022-08-01 10:30:00 Z
 categories:
 - Podcast
@@ -20,9 +20,10 @@ contributors:
 - smartin
 - rpilling
 image: "/uploads/BeyondTheHype%20-%20pink%20and%20blue%20-%20episode%206%20-%20social.png"
+podcast_embed_url: "//play.libsyn.com/embed/episode/id/23860152/height/192/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF"
+podcast_spotify_url: https://open.spotify.com/episode/7lCX2FOnmBOtwOSR8iBma9?si=1a14472af3ef4edf
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/most-loved-language-does-rust-justify-the-hype/id1612265563?i=1000574615939
 ---
-
-<iframe title="Embed Player" src="//play.libsyn.com/embed/episode/id/23860152/height/192/theme/modern/size/large/thumbnail/yes/custom-color/ffffff/time-start/00:00:00/playlist-height/200/direction/backward/download/yes" height="192" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" style="border: none;"></iframe>
 
 In this month's episode, Simon Martin, Chris Price and Rob Pilling share their interest and insights into Rust. This relatively new programming language has caught the attention of the development community, being voted the ‘most-loved’ language seven years in a row in the StackOverflow survey.
 

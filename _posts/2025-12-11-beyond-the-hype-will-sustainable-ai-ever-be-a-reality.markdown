@@ -1,5 +1,5 @@
 ---
-title: 'Beyond the Hype: Will sustainable AI ever be a reality?'
+title: 'Will sustainable AI ever be a reality?'
 date: 2025-12-11 09:36:00 Z
 categories:
 - Podcast
@@ -49,9 +49,10 @@ contributors:
 - jcamilleri
 - hsauve
 image: "/uploads/BeyondTheHype%20-%20blue%20and%20yellow%20-%20episode%2030%20-%20social.jpg"
+podcast_embed_url: "https://play.libsyn.com/embed/episode/id/39343225/height/192/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF"
+podcast_spotify_url: https://open.spotify.com/episode/0Ohjru1lrhMYluwOcqGZDI?si=f04246fd227d4a3a 
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/will-sustainable-ai-ever-be-a-reality/id1612265563?i=1000740811871 
 ---
-
-<iframe title="Embed Player" src="https://play.libsyn.com/embed/episode/id/39343225/height/192/theme/modern/size/large/thumbnail/yes/custom-color/ffffff/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/252525" height="192" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" style="border: none;"></iframe>
 
 In this episode, I'm joined by colleagues James Camilleri and Hélène Sauvé to explore the complex topic of AI sustainability. It’s a conversation that spans the environmental impact of AI, from carbon emissions to water usage, and examines whether the industry narrative matches reality.
 

@@ -1,4 +1,5 @@
-@use 'colours';
+@use "colours";
+@use "fonts";
 
 @mixin article-colour($colour) {
   .category {
@@ -7,10 +8,10 @@
     }
   }
   .title {
-    color: $colour;
+    color: colours.$black;
     a:hover {
-      color: colours.$white;
-      background-color: $colour;
+      color: colours.$black;
+      border-bottom: 5px solid $colour;
     }
   }
   .post-summary-social {
@@ -27,13 +28,21 @@
 }
 
 .post-summary {
-
   .category {
-    color: colours.$grey;
+    border-radius: 8px;
+    padding: .2em 1em;
+    line-height: 32px;
+    white-space: nowrap;
+
+    &.active,
+    &:hover {
+      background: colours.$teal;
+      color: colours.$white;
+    }
   }
 
   .title {
-    font-size: $baseFontSize * 1.5;
+    font-size: fonts.$baseFontSize * 1.5;
     line-height: 1.4;
     > a {
       margin-right: 1.5rem;
@@ -49,13 +58,45 @@
   }
 
   @include article-colour(colours.$teal);
+  .category {
+    background: colours.$teal;
+    color: white;
+    &.active,
+    &:hover {
+      color: black;
+    }
+  }
   &.pink {
     @include article-colour(colours.$pink);
+    .category {
+      background: colours.$pink;
+      color: white;
+      &.active,
+      &:hover {
+        color: black;
+      }
+    }
   }
   &.orange {
     @include article-colour(colours.$orange);
+    .category {
+      background: colours.$orange;
+      color: white;
+      &.active,
+      &:hover {
+        color: black;
+      }
+    }
   }
   &.yellow {
     @include article-colour(colours.$yellow);
+    .category {
+      background: colours.$yellow;
+      color: black;
+      &.active,
+      &:hover {
+        color: white;
+      }
+    }
   }
 }

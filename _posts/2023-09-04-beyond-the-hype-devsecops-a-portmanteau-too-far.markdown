@@ -1,5 +1,5 @@
 ---
-title: 'Beyond the Hype: DevSecOps, a portmanteau too far?'
+title: 'DevSecOps, a portmanteau too far?'
 date: 2023-09-04 08:15:00 Z
 categories:
 - Podcast
@@ -13,12 +13,13 @@ summary: 'In this episode, Oliver and Peter from Scott Logic are joined by Laura
   to DevOps, which is trying to solve a similar problem. '
 author: ceberhardt
 image: "/uploads/BeyondTheHype%20-%20orange%20and%20blue%20-%20episode%2014%20-%20social.png"
+podcast_embed_url: "https://play.libsyn.com/embed/episode/id/27892746/height/192/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF"
+podcast_spotify_url: https://open.spotify.com/episode/1GULevU2QKlGZ4SZeYC1mD?si=ca1528c77e8c41b8
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/devsecops-a-portmanteau-too-far/id1612265563?i=1000626667701
 contributors:
 - ocronk
 - pchamberlin
 ---
-
-<iframe title="Embed Player" src="https://play.libsyn.com/embed/episode/id/27892746/height/192/theme/modern/size/large/thumbnail/yes/custom-color/ffffff/time-start/00:00:00/playlist-height/200/direction/backward/download/yes" height="192" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" style="border: none;"></iframe>
 
 In this episode, Oliver and Peter from Scott Logic are joined by Laura Bell Main, CEO and co-founder of SafeStack, for a lively discussion on DevSecOps. They touch on techniques such as “assume breach” and “shift left”, and the relationship to DevOps, which is trying to solve a similar problem. However, much of the discussion focussed quite simply on security and the challenges this presents, especially when this so often falls to a very small team or an individual.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Beyond the Hype: Will we ever be able to secure GenAI?'
+title: 'Will we ever be able to secure GenAI?'
 date: 2024-07-08 10:34:00 Z
 categories:
 - Podcast
@@ -20,12 +20,13 @@ summary: In this episode, I'm joined by Doro Hinrichs and Kira Clark from Scott 
   do to navigate this terrain.
 author: ocronk
 image: "/uploads/BeyondTheHype---green-and-pink---episode-20---social.png"
+podcast_embed_url: "https://play.libsyn.com/embed/episode/id/32044872/height/64/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
+podcast_spotify_url: https://open.spotify.com/episode/7G1TMo3bJSOGf7ZdDusrDZ?si=757e9024ddd54608
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/will-we-ever-be-able-to-secure-genai/id1612265563?i=1000661515896
 contributors:
 - dhinrichs
 - kclark
 ---
-
-<iframe title="Embed Player" src="https://play.libsyn.com/embed/episode/id/32044872/height/192/theme/modern/size/large/thumbnail/yes/custom-color/ffffff/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/252525" height="192" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" style="border: none;"></iframe>
 
 In this episode, I'm joined by Doro Hinrichs and Kira Clark from Scott Logic and Peter Gostev, Head of AI at Moonpig. Together, we explore whether we can ever really trust and secure Generative AI (GenAI), while sharing stories from the front line about getting to grips with this rapidly evolving technology.
 

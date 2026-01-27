@@ -1,0 +1,37 @@
+@use "colours";
+
+.search-form {
+  background-color: colours.$white;
+  border: 3px solid colours.$grey;
+
+  .input-group {
+    margin-bottom: 0;
+  }
+
+  .input-group-label {
+    background-color: inherit;
+    border: none;
+    color: colours.$grey;
+    padding-right: 0;
+  }
+
+  input.input-group-field {
+    border: none;
+    background-color: inherit;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+
+    &::placeholder {
+      color: colours.$grey;
+    }
+  }
+
+  .input-group-button {
+    padding: 3px;
+
+    button {
+      background-color: colours.$white;
+      border: none;
+    }
+  }
+}

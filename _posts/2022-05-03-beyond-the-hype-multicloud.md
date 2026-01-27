@@ -1,5 +1,5 @@
 ---
-title: Beyond the Hype - Is multi-cloud a myth?
+title: Is multi-cloud a myth?
 date: 2022-05-03 00:00:00 Z
 categories:
 - Podcast
@@ -14,9 +14,10 @@ contributors:
 - rgriffiths
 image: "/uploads/BeyondTheHype%20-%20orange%20and%20orange%20-%20episode%203%20-%20social.png"
 layout: default_post
+podcast_embed_url: "//play.libsyn.com/embed/episode/id/22863902/height/192/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF"
+podcast_spotify_url: https://open.spotify.com/episode/0m2F1oLPMK4gYuFrGo8iQ1?si=1a243a7d5add4807
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/is-multi-cloud-a-myth/id1612265563?i=1000559308233
 ---
-
-<iframe title="Embed Player" src="//play.libsyn.com/embed/episode/id/22863902/height/192/theme/modern/size/large/thumbnail/yes/custom-color/ffffff/time-start/00:00:00/playlist-height/200/direction/backward" height="192" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" style="border: none;"></iframe>
 
 In this month’s episode, we talk multi-cloud. This is a challenging topic, even the first step—nailing down what the term actually means—isn’t easy. How does it differ from hybrid-cloud or poly-cloud? Does the term refer to the deployment approach for a single application or an entire organisation?
 

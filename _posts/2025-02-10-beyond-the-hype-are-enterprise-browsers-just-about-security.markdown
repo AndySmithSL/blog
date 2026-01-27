@@ -1,5 +1,5 @@
 ---
-title: 'Beyond the Hype: Are enterprise browsers just about security?'
+title: 'Are enterprise browsers just about security?'
 date: 2025-02-10 11:28:00 Z
 categories:
 - Podcast
@@ -18,12 +18,13 @@ summary: In this episode of Beyond the Hype, I'm joined by Bradon Rogers from Is
   of enterprise browsers to simplify security and enhance user productivity.
 author: ocronk
 image: "/uploads/BeyondTheHype---pink-and-yellow---episode-23---social.png"
+podcast_embed_url: "https://play.libsyn.com/embed/episode/id/35100795/height/64/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF"
+podcast_spotify_url: https://open.spotify.com/episode/1YceHZMtfo6h8QAeDWbFV7?si=c8c9b7cb2afa4404
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/are-enterprise-browsers-just-about-security/id1612265563?i=1000690775181 
 contributors:
 - dkerr
 - rwilliams
 ---
-
-<iframe title="Embed Player" src="https://play.libsyn.com/embed/episode/id/35100795/height/192/theme/modern/size/large/thumbnail/yes/custom-color/ffffff/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/252525" height="192" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" style="border: none;"></iframe>
 
 In this episode of Beyond the Hype, I'm joined by Bradon Rogers from Island, along with Scott Logic colleagues Dean Kerr and Robat Williams, to explore the potential of enterprise browsers.
 

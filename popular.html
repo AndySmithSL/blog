@@ -1,0 +1,52 @@
+---
+title: Most Popular Posts
+layout: default
+summary: Posts ordered by clap count
+image: "/assets/blog.png"
+permalink: /popular/
+pagination:
+  sort_field: 'clap_count'
+  enabled: true
+  per_page: 12
+  permalink: /:num/
+---
+
+{%- assign allPosts = site.posts -%}
+{%- assign categoryName = 'Popular Posts' -%}
+
+<div class="post-index grid-container">
+    <h1 class="super-title">Blog</h1>
+    <h2 class="cell sub-title">Our thoughts on technology and design</h2>
+
+  <div class="cell grid-x grid-margin-y">
+    <div class="cell large-8">
+      <div class="post-summary-list grid-container fluid">
+        <div class="content grid-x">
+          {%- assign postsPerPage = 12 -%}
+          {%- assign currentPage = paginator.page | default: 1 -%}
+          {%- assign offset = currentPage | minus: 1 | times: postsPerPage -%}
+          {%- assign pagedPosts = allPosts | offset: offset | limit: postsPerPage -%}
+          
+          {%- for post in pagedPosts -%}
+            {%-
+              include post_summary.html 
+              post=post 
+              postIndex=forloop.index0
+            -%}
+          {%- endfor -%}
+          
+          {%- include pagination.html -%}
+        </div>
+      </div>
+    </div>
+    
+    <div class="side-lists cell large-3 large-offset-1 grid-padding-y grid-margin-y">
+      {%- include search_bar.html categoryName="Popular Posts" -%}
+      {%- include filter_toggle.html -%}
+      {%- include_cached category_list.html selectedCategoryName="Popular Posts" -%}
+      {%- include_cached author_list.html -%}
+    </div>
+  </div>
+</div>
+
+{%- include site-footer.html -%}

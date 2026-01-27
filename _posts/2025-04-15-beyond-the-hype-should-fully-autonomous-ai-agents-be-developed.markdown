@@ -1,5 +1,5 @@
 ---
-title: 'Beyond the Hype: Should fully autonomous AI agents be developed?'
+title: 'Should fully autonomous AI agents be developed?'
 date: 2025-04-15 16:02:00 Z
 categories:
 - Podcast
@@ -21,14 +21,15 @@ summary: In this episode, I'm joined by colleagues David Rees, Hélène Sauvé, 
   and limitations of agentic AI and its implications for enterprise AI deployments.
 author: ocronk
 image: "/uploads/BeyondTheHype---orange-and-yellow---episode-25---social.jpg"
+podcast_embed_url: "https://play.libsyn.com/embed/episode/id/36007370/height/64/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
+podcast_spotify_url: https://open.spotify.com/episode/14IHFEg00dvQXMFRkuk14P?si=354eb38a0ba44205 
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/should-fully-autonomous-ai-agents-be-developed/id1612265563?i=1000703623717 
 contributors:
 - drees
 - hsauve
 - imladjenovic
 - epearce
 ---
-
-<iframe title="Embed Player" src="https://play.libsyn.com/embed/episode/id/36007370/height/192/theme/modern/size/large/thumbnail/yes/custom-color/ffffff/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/252525" height="192" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" style="border: none;"></iframe>
 
 In this episode, I'm joined by colleagues David Rees, Hélène Sauvé, Ivan Mladjenovic and Emma Pearce. Together, we delve into the practical applications and limitations of agentic AI and its implications for enterprise AI deployments.
 

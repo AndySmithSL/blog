@@ -1,5 +1,5 @@
 ---
-title: 'Beyond the Hype: Is generative AI coming for programming jobs?'
+title: 'Is generative AI coming for programming jobs?'
 date: 2023-05-02 09:00:00 Z
 categories:
 - Podcast
@@ -17,13 +17,14 @@ summary: In this episode, I'm joined by colleagues Oliver Cronk, Chris Price and
   to threaten our jobs – are we going to be made redundant by our own creation?
 author: ceberhardt
 image: uploads/BeyondTheHype%20-%20pink%20and%20yellow%20-%20episode%2012%20-%20social.png
+podcast_embed_url: "https://play.libsyn.com/embed/episode/id/26634822/height/192/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
+podcast_spotify_url: https://open.spotify.com/episode/0Dym400PVjnoO90dXL8nTn?si=417b2b8f782f4578
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/is-generative-ai-coming-for-programming-jobs/id1612265563?i=1000611407333
 contributors:
 - ocronk
 - cprice
 - jheward
 ---
-
-<iframe title="Embed Player" src="https://play.libsyn.com/embed/episode/id/26634822/height/192/theme/modern/size/large/thumbnail/yes/custom-color/ffffff/time-start/00:00:00/playlist-height/200/direction/backward/download/yes" height="192" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" style="border: none;"></iframe>
 
 In this episode, I'm joined by colleagues Oliver Cronk, Chris Price and James Heward for a lively debate on whether the latest advances in generative AI are going to threaten our jobs – are we going to be made redundant by our own creation?
 

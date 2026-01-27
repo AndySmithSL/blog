@@ -1,5 +1,5 @@
 ---
-title: 'Beyond the Hype: WebAssembly – from the browser to beyond'
+title: 'WebAssembly – from the browser to beyond'
 date: 2023-08-04 00:01:00 Z
 categories:
 - Podcast
@@ -20,9 +20,10 @@ summary: In this episode, I'm joined by Bailey Hayes from Cosmonic and Sean Isom
   Model, which aims to break down language barriers.
 author: ceberhardt
 image: "/uploads/BeyondTheHype%20-%20pink%20and%20yellow%20-%20episode%2013%20-%20social.png"
+podcast_embed_url: "https://play.libsyn.com/embed/episode/id/27594348/height/192/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF"
+podcast_spotify_url: https://open.spotify.com/episode/41Py11bo9h4IdvhZ0mGv29?si=e69d416fb2e1408b
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/webassembly-from-the-browser-to-beyond/id1612265563?i=1000623650324
 ---
-
-<iframe title="Embed Player" src="https://play.libsyn.com/embed/episode/id/27594348/height/192/theme/modern/size/large/thumbnail/yes/custom-color/ffffff/time-start/00:00:00/playlist-height/200/direction/backward/download/yes" height="192" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" style="border: none;"></iframe>
 
 In this episode, I'm joined by Bailey Hayes from Cosmonic and Sean Isom from Adobe – between them, they have a wealth of WebAssembly experience and insights.
 

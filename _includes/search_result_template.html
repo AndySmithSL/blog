@@ -1,0 +1,38 @@
+{%- comment -%}
+This include generates a search result template that mimics post_summary.html
+but uses SimpleJekyllSearch placeholders like {title}, {url}, etc.
+{%- endcomment -%}
+<div class="post-summary {colour} grid-margin-y grid-padding-y cell large-12 small-12">
+  <div class="post-summary cell grid-margin-y">
+    <span class="category">
+      <a href="{{- site.baseurl -}}{category_url}">
+        {category_title}
+      </a>
+    </span>
+    <div class="title">
+      <a href="{{- site.baseurl -}}{url}">{title}</a>
+    </div>
+    <div class="cell">
+      {excerpt}
+    </div>
+    <div class="avatar-metadata cell">
+      <img src="{{- site.baseurl -}}/{author_id}/{author_picture}" role="presentation" alt="{author_name}">
+        <div>
+          <span>
+            {contributors_names}
+          </span>
+          <br>
+          <span class="timestamp" date-published="{{- date -}}">
+            {date}
+          </span>
+          {%- unless layout == 'video_post' -%}
+            <span>&middot;</span>
+            <span>
+              {reading_time}
+            </span>
+          {%- endunless -%}
+        </div>
+
+    </div>
+  </div>
+</div>

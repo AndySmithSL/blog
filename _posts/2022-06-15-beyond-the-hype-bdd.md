@@ -1,5 +1,5 @@
 ---
-title: Beyond the Hype - Behaviour Driven Development, Hype? Or just misunderstood?
+title: Behaviour Driven Development, Hype? Or just misunderstood?
 date: 2022-06-15 00:00:00 Z
 categories:
 - Podcast
@@ -14,9 +14,10 @@ contributors:
 - jarnstein
 image: "/uploads/BeyondTheHype%20-%20green%20and%20green%20-%20episode%204%20-%20social.png"
 layout: default_post
+podcast_embed_url: "//play.libsyn.com/embed/episode/id/23149460/height/192/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF"
+podcast_spotify_url: https://open.spotify.com/episode/5sE96kXOZXhPIs7iePpfMm?si=96fa1b949e0a4f1c
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/behaviour-driven-development-hype-or-just-misunderstood/id1612265563?i=1000565339785
 ---
-
-<iframe title="Embed Player" src="//play.libsyn.com/embed/episode/id/23149460/height/192/theme/modern/size/large/thumbnail/yes/custom-color/ffffff/time-start/00:00:00/playlist-height/200/direction/backward" height="192" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" style="border: none;"></iframe>
 
 In this month’s episode we talk about Behaviour Driven Development (BDD), a testing practice where system behaviours are captured in a human readable Domain Specific Language (DSL), which are automated and executed.
 

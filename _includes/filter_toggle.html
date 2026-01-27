@@ -1,0 +1,20 @@
+{%- if page.url contains '/popular' -%}
+  {%- assign isPopularPage = true -%}
+  {%- assign latestUrl = page.url | replace: '/popular', '' | replace: '/index.html', '/' -%}
+  {%- assign popularUrl = '/popular/' -%}
+{%- else -%}
+  {%- assign isPopularPage = false -%}
+  {%- assign cleanUrl = page.url | replace: '/index.html', '/' -%}
+  {%- if cleanUrl == '/' -%}
+    {%- assign latestUrl = '/' -%}
+    {%- assign popularUrl = '/popular/' -%}
+  {%- else -%}
+    {%- assign latestUrl = cleanUrl -%}
+    {%- assign popularUrl = cleanUrl | append: 'popular/' -%}
+  {%- endif -%}
+{%- endif -%}
+
+<div class="toggle-buttons">
+  <a href="{{ latestUrl }}" class="btn{%- unless isPopularPage %} active{%- endunless %}">Latest</a>
+  <a href="{{ popularUrl }}" class="btn{%- if isPopularPage %} active{%- endif %}">Most Popular</a>
+</div>

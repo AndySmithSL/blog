@@ -1,5 +1,5 @@
 ---
-title: 'Beyond the Hype: Will Low-Code and No-Code be disrupted or powered up by AI?'
+title: 'Will Low-Code and No-Code be disrupted or powered up by AI?'
 date: 2025-07-09 08:07:00 Z
 categories:
 - Podcast
@@ -20,9 +20,10 @@ summary: In this episode of Beyond the Hype, Oliver Cronk is joined by Ani Allen
   experience.
 author: ocronk
 image: "/uploads/BeyondTheHype---orange-and-orange---episode-28---social.jpg"
+podcast_embed_url: "https://play.libsyn.com/embed/episode/id/37273210/height/64/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
+podcast_spotify_url: https://open.spotify.com/episode/4vtN0HVeU0tu8t3DX1h7FE?si=da5f8d7a0f694860
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/will-low-code-and-no-code-be-disrupted-or-powered-up-by-ai/id1612265563?i=1000716447995 
 ---
-
-<iframe title="Embed Player" src="https://play.libsyn.com/embed/episode/id/37273210/height/192/theme/modern/size/large/thumbnail/yes/custom-color/ffffff/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/252525" height="192" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" style="border: none;"></iframe>
 
 In this episode, I'm joined by Ani Allen from OutSystems and Ryan Grey from Marra to discuss the evolving landscape of Low-Code, No-Code, and AI-assisted development. With backgrounds spanning neuroscience, enterprise software, and consultancy, my guests bring a rich mix of perspectives to a conversation that cuts through the hype.
 

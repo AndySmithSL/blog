@@ -1,5 +1,5 @@
 ---
-title: 'Beyond the Hype: Is Agile now a dirty word?'
+title: 'Is Agile now a dirty word?'
 date: 2025-10-22 08:00:00 Z
 categories:
 - Podcast
@@ -27,9 +27,10 @@ contributors:
 - cpratt
 - dogle
 image: "/uploads/BeyondTheHype---green-and-green---episode-29---social.jpg"
+podcast_embed_url: "https://play.libsyn.com/embed/episode/id/38726855/height/64/theme/modern/size/small/thumbnail/yes/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF"
+podcast_spotify_url: "https://open.spotify.com/episode/2gKWihMUMjb6ktd5ForR5Q?si=QKnNRd-nQXCOi3SwCB8AjQ"
+podcast_apple_url: "https://podcasts.apple.com/gb/podcast/is-agile-now-a-dirty-word/id1612265563?i=1000732939480"
 ---
-
-<iframe title="Embed Player" src="https://play.libsyn.com/embed/episode/id/38726855/height/192/theme/modern/size/large/thumbnail/yes/custom-color/ffffff/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/252525" height="192" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" style="border: none;"></iframe>
 
 In this episode, I'm joined by Josie Walledge (Delivery Principal), Catherine Pratt (Delivery Principal) and Dave Ogle (Lead Developer) to explore whether Agile has lost its meaning – or worse, become a dirty word. With years of combined experience, we reflect on Agile’s evolution from a revolutionary mindset to a sometimes rigid and misunderstood process.
 

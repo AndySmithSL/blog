@@ -1,5 +1,5 @@
 ---
-title: 'Beyond the Hype: ChatGPT and why it has set the internet alight'
+title: 'ChatGPT and why it has set the internet alight'
 date: 2023-02-06 14:30:00 Z
 categories:
 - Podcast
@@ -15,11 +15,12 @@ summary: In this episode, I'm joined by my colleague, Oliver Cronk, and Chris Bo
   practical applications and limitations of this technology.
 author: ceberhardt
 image: "/uploads/BeyondTheHype%20-%20blue%20and%20yellow%20-%20episode%209%20-%20social.png"
+podcast_embed_url: "https://play.libsyn.com/embed/episode/id/25745451/height/192/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF"
+podcast_spotify_url: https://open.spotify.com/episode/4ZpoKNKaMYwnWGpEsCDX4i?si=386f958c90ea4f3e
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/chatgpt-and-why-it-has-set-the-internet-alight/id1612265563?i=1000598205594
 contributors:
 - ocronk
 ---
-
-<iframe title="Embed Player" src="https://play.libsyn.com/embed/episode/id/25745451/height/192/theme/modern/size/large/thumbnail/yes/custom-color/ffffff/time-start/00:00:00/playlist-height/200/direction/backward/download/yes" height="192" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" style="border: none;"></iframe>
 
 In this episode, I'm joined by my colleague, Oliver Cronk, and Chris Booth from NatWest for a lively discussion about the much-hyped ChatGPT.
 

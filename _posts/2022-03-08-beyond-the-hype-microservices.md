@@ -1,5 +1,5 @@
 ---
-title: 'Beyond the Hype - Microservices: are they the only architecture you need?'
+title: 'Microservices: are they the only architecture you need?'
 date: 2022-03-08 00:00:00 Z
 categories:
 - Podcast
@@ -14,9 +14,10 @@ contributors:
 - hbellamy
 image: "/uploads/BeyondTheHype%20-%20blue%20-%20episode%201%20-social.png"
 layout: default_post
+podcast_embed_url: "//play.libsyn.com/embed/episode/id/22009826/height/192/theme/modern/size/small/thumbnail/no/custom-color/47A2A7/time-start/00:00:00/playlist-height/200/direction/backward/download/yes/font-color/FFFFFF" 
+podcast_spotify_url: https://open.spotify.com/episode/3FT2HlplsymSZmsrbpQ7ZZ?si=d053923d0c2141bb
+podcast_apple_url: https://podcasts.apple.com/gb/podcast/microservices-are-they-the-only-architecture-you-need/id1612265563?i=1000553141404
 ---
-
-<iframe title="Embed Player" src="//play.libsyn.com/embed/episode/id/22009826/height/192/theme/modern/size/large/thumbnail/yes/custom-color/ffffff/time-start/00:00:00/playlist-height/200/direction/backward" height="192" width="100%" scrolling="no" allowfullscreen="" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" style="border: none;"></iframe>
 
 Beyond the Hype is a new monthly podcast from the Scott Logic team, where we cast a practical eye over what is new and exciting in technology – everything from Kafka to Kubernetes, AI to APIs, microservices to micro-frontends. We look beyond the promises, the buzz and excitement to guide you towards the genuine value.
 
