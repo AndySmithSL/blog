@@ -3,84 +3,82 @@ layout: default
 title: Search
 search_page: true
 ---
-
 {%- include post_index.html -%}
 {%- capture search_result_template -%}
 {%- include search_result_template.html -%}
 {%- endcapture -%}
 
 <script>
-
-document.addEventListener('DOMContentLoaded', function() {  
-  const searchInput = document.getElementById('search-input');
-  const resultsContainer = document.getElementById('post-summary-list');
-  const searchTermDisplay = document.getElementById('search-term-display');
-  const searchTermText = document.getElementById('search-term-text');
-  
-  // Get search term from URL parameter
-  const urlParams = new URLSearchParams(window.location.search);
-  const searchTerm = urlParams.get('text');
-  
-  if (searchTerm) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('post-summary-list');
     const searchTermDisplay = document.getElementById('search-term-display');
     const searchTermText = document.getElementById('search-term-text');
-    if (searchTermDisplay && searchTermText) {
-      searchTermDisplay.style.display = 'inline';
-      searchTermText.textContent = searchTerm;
-    }
-    
-    const searchInput = document.getElementById('search-input');
-    if (searchInput) {
-      searchInput.value = searchTerm;
-    }
-  }
-    
-  var searchTemplate = {{ search_result_template | jsonify }};
-  
-  fetch('/search.json')
-    .then(response => response.json())
-    .then(function(data) {
-      if (Array.isArray(data)) {
-        data = data.map(function(item) {
-          const cleanedItem = {};
-          Object.keys(item).forEach(function(key) {
-            const value = item[key];
-            cleanedItem[key] = (value === null || value === undefined) ? '' : String(value);
-          });
-          return cleanedItem;
-        });
+
+    // Get search term from URL parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    const searchTerm = urlParams.get('text');
+
+    if (searchTerm) {
+      const searchTermDisplay = document.getElementById('search-term-display');
+      const searchTermText = document.getElementById('search-term-text');
+      if (searchTermDisplay && searchTermText) {
+        searchTermDisplay.style.display = 'inline';
+        searchTermText.textContent = searchTerm;
       }
-      
-      // Now initialize SimpleJekyllSearch with cleaned data
-      window.simpleJekyllSearchInstance = SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('post-summary-list'),
-        json: data, // Use preprocessed data directly
-        searchResultTemplate: {{ search_result_template | jsonify }},
-        noResultsText: 'No results found',
-        templateMiddleware: function(prop, value, template) {
-          // Double-check that value is a string before processing
-          if (value === null || value === undefined) {
-            return '';
+
+      const searchInput = document.getElementById('search-input');
+      if (searchInput) {
+        searchInput.value = searchTerm;
+      }
+    }
+
+    var searchTemplate = {{ search_result_template | jsonify }};
+
+    fetch('/search.json')
+      .then(response => response.json())
+      .then(function(data) {
+        if (Array.isArray(data)) {
+          data = data.map(function(item) {
+            const cleanedItem = {};
+            Object.keys(item).forEach(function(key) {
+              const value = item[key];
+              cleanedItem[key] = (value === null || value === undefined) ? '' : String(value);
+            });
+            return cleanedItem;
+          });
+        }
+
+        // Now initialize SimpleJekyllSearch with cleaned data
+        window.simpleJekyllSearchInstance = SimpleJekyllSearch({
+          searchInput: document.getElementById('search-input'),
+          resultsContainer: document.getElementById('post-summary-list'),
+          json: data, // Use preprocessed data directly
+          searchResultTemplate: {{ search_result_template | jsonify }},
+          noResultsText: 'No results found',
+          templateMiddleware: function(prop, value, template) {
+            // Double-check that value is a string before processing
+            if (value === null || value === undefined) {
+              return '';
+            }
+            const stringValue = String(value);
+            return stringValue;
           }
-          const stringValue = String(value);
-          return stringValue;
+        });
+
+
+        // If there's a search term in the URL, perform the search automatically
+        if (searchTerm) {
+          // Trigger search after SimpleJekyllSearch is initialized
+          setTimeout(function() {
+            const searchInput = document.getElementById('search-input');
+            if (searchInput) {
+              // Dispatch input event to trigger search
+              const event = new Event('input', { bubbles: true });
+              searchInput.dispatchEvent(event);
+            }
+          }, 100);
         }
       });
-
-      
-      // If there's a search term in the URL, perform the search automatically
-      if (searchTerm) {
-        // Trigger search after SimpleJekyllSearch is initialized
-        setTimeout(function() {
-          const searchInput = document.getElementById('search-input');
-          if (searchInput) {
-            // Dispatch input event to trigger search
-            const event = new Event('input', { bubbles: true });
-            searchInput.dispatchEvent(event);
-          }
-        }, 100);
-      }
-    });
-});
+  });
 </script>

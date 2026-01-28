@@ -1,7 +1,11 @@
 {%- assign colourIndex = include.post.title | size | modulo: 4 -%}
 {%- case colourIndex -%}
-{%- when 0 -%} /uploads/BeyondTheHype_green.png
-{%- when 1 -%} /uploads/BeyondTheHype_orange.png
-{%- when 2 -%} /uploads/BeyondTheHype_pink.png
-{%- when 3 -%} /uploads/BeyondTheHype_orange.png
+  {%- when 0 -%}
+    /uploads/BeyondTheHype_green.png
+  {%- when 1 -%}
+    /uploads/BeyondTheHype_orange.png
+  {%- when 2 -%}
+    /uploads/BeyondTheHype_pink.png
+  {%- when 3 -%}
+    /uploads/BeyondTheHype_orange.png
 {%- endcase -%}

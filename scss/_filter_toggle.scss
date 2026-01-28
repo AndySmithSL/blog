@@ -3,30 +3,30 @@
 .toggle-buttons {
   display: inline-flex;
   border: 2px solid colours.$pink;
-  border-radius: 10px;       
-  overflow: hidden;     
+  border-radius: 10px;
+  overflow: hidden;
   width: 100%;
 
-    .btn {
+  .btn {
     flex: 1;
     padding: 10px 30px;
     font-weight: 500;
     border: none;
     background: colours.$white;
-    color: colours.$pink;        
+    color: colours.$pink;
     cursor: pointer;
     transition: all 0.3s ease;
     text-align: center;
     white-space: nowrap;
-    }
+  }
 
-    .btn.active {
-    background: colours.$pink;     
-    color: colours.$white;         
-    font-weight: 700;        
-    }
+  .btn.active {
+    background: colours.$pink;
+    color: colours.$white;
+    font-weight: 700;
+  }
 
-    .btn:not(.active):hover {
-    background: colours.$light-pink;    
-    }
+  .btn:not(.active):hover {
+    background: colours.$light-pink;
+  }
 }

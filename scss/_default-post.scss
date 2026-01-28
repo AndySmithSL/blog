@@ -161,34 +161,32 @@
     .related-posts-list {
       .related-post {
         margin-bottom: 1rem;
-    
-          .category {
-            font-size: fonts.$baseFontSize * 0.8;
-            margin-bottom: 0.25rem;
-          }
 
-          .title a {
-            font-size: fonts.$baseFontSize * 1;
-            font-weight: fonts.$font-bold;
-            text-decoration: none;
-            line-height: 1.3;
-            display: block;
-            margin-bottom: 0.5rem;
+        .category {
+          font-size: fonts.$baseFontSize * 0.8;
+          margin-bottom: 0.25rem;
+        }
 
-          }
+        .title a {
+          font-size: fonts.$baseFontSize * 1;
+          font-weight: fonts.$font-bold;
+          text-decoration: none;
+          line-height: 1.3;
+          display: block;
+          margin-bottom: 0.5rem;
+        }
 
-          .content {
-            font-size: fonts.$baseFontSize * 0.85;
-            line-height: 1.4;
-            margin-bottom: 0.5rem;
-          }
+        .content {
+          font-size: fonts.$baseFontSize * 0.85;
+          line-height: 1.4;
+          margin-bottom: 0.5rem;
+        }
 
-          .avatar-metadata {
-            font-size: fonts.$baseFontSize * 0.75;
-            opacity: 0.8;
-          }
+        .avatar-metadata {
+          font-size: fonts.$baseFontSize * 0.75;
+          opacity: 0.8;
         }
       }
     }
   }
-
+}

@@ -1,6 +1,6 @@
 {%- if include.post.content -%}
   {%- assign wordCount = include.post.content | number_of_words -%}
-{%- else if include.word_count -%}
+{%- else -%}
   {%- assign wordCount = include.word_count -%}
 {%- else -%}
   {%- assign wordCount = 0 -%}

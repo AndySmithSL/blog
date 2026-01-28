@@ -12,7 +12,7 @@
 {%- assign numPosts = featuredPosts | size -%}
 {%- if numPosts > 0 -%}
   <div class="featured-posts grid-x grid-margin-x grid-margin-y">
-    {% assign randIdx = "now" | date: "%N" | modulo: 4 %} 
+    {% assign randIdx = 'now' | date: '%N' | modulo: 4 %}
     {%- if page.url == '/' or page.url == '/index.html' -%}
       {%- assign postsToShow = featuredPosts | slice: 0, 2 -%}
     {%- else -%}

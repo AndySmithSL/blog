@@ -1,12 +1,12 @@
 {% comment %}
-Related Posts using AI-generated related.yml data
+  Related Posts using AI-generated related.yml data
 {% endcomment %}
 
 {% assign related_urls = site.data.related[page.url] %}
 
 {% if related_urls.size > 0 %}
-  {% assign posts_to_show = "" | split: "," %}
-  
+  {% assign posts_to_show = '' | split: ',' %}
+
   {% for related_url in related_urls %}
     {% for post in site.posts %}
       {% if post.url == related_url %}
@@ -15,7 +15,7 @@ Related Posts using AI-generated related.yml data
       {% endif %}
     {% endfor %}
   {% endfor %}
-  
+
   {% for post in posts_to_show %}
     {% include related-post.html postIndex=forloop.index0 %}
   {% endfor %}

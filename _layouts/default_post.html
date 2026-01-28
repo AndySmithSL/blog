@@ -6,9 +6,9 @@ layout: default
 
 <div class="default-post {% include post_colour.html post=page %} grid-container">
   {%- if page.podcast_embed_url -%}
-  {%- include podcast_header.html page=page -%}
+    {%- include podcast_header.html page=page -%}
   {%- else -%}
-  {%- include default_post_header.html page=page -%}
+    {%- include default_post_header.html page=page -%}
   {%- endif -%}
 
   <div class="grid-x grid-margin-x grid-padding-y">
@@ -17,8 +17,8 @@ layout: default
         {%- include_cached author_picture.html author=author -%}
         <a rel="author" href="{{- site.baseurl -}}/{{- authorUsername -}}">{{- author.name -}}</a>
         {%- for contributorId in page.contributors -%}
-        ,
-        {%- include_cached author-link.html author-id=contributorId -%}
+          ,
+          {%- include_cached author-link.html author-id=contributorId -%}
         {%- endfor -%}
       </div>
       {%- include_cached social.html author=author -%}
@@ -31,10 +31,10 @@ layout: default
     <div class="side-lists cell large-3 large-offset-1 show-for-large grid-padding-y">
       {%- include_cached author_summary.html author-id=page.author -%}
       {%- for contributorId in page.contributors -%}
-      {%-
-      include_cached author_summary.html
-      author-id=contributorId
-      -%}
+        {%-
+          include_cached author_summary.html
+          author-id=contributorId
+        -%}
       {%- endfor -%}
 
       <div class="related-posts-section">

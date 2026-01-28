@@ -30,7 +30,9 @@
     <h1 class="super-title">
       {{ categoryName }}
       {%- if page.search_page -%}
-        <span id="search-term-display" class="search-term-display" style="display: none;"> - "<span id="search-term-text"></span>"</span>
+        <span id="search-term-display" class="search-term-display" style="display: none;">
+          - "<span id="search-term-text"></span>"</span
+        >
       {%- endif -%}
     </h1>
   {% endif %}
@@ -53,7 +55,6 @@
       {%- else -%}
         {%- include post_summary_list.html -%}
       {%- endif -%}
-
     </div>
     <div
       class="side-lists cell large-3 large-offset-1 grid-padding-y grid-margin-y"
@@ -72,4 +73,3 @@
 </div>
 
 {%- include site-footer.html -%}
-

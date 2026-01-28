@@ -1,4 +1,4 @@
-@use '../colours';
+@use "../colours";
 @use "../util";
 
 #mobileMenu:not(.mm-menu) {
@@ -26,7 +26,6 @@ header {
     justify-content: space-between;
   }
 
-
   h1.brand {
     display: block;
     margin: auto;
@@ -34,11 +33,11 @@ header {
     width: 165px;
 
     @include util.breakpoint(medium) {
-      margin: 0 0 0 util.rem-calc(40px, 16px)
+      margin: 0 0 0 util.rem-calc(40px, 16px);
     }
 
     a {
-      background: url('./logo.svg') no-repeat 0 0;
+      background: url("./logo.svg") no-repeat 0 0;
       width: 183px;
       height: 40px;
       display: block;
@@ -50,7 +49,7 @@ header {
       width: 421px;
 
       a {
-        background: url('./logo.svg') no-repeat 0 0;
+        background: url("./logo.svg") no-repeat 0 0;
         width: 436px;
         height: 40px;
         display: block;
@@ -76,7 +75,6 @@ header {
       }
     }
   }
-
 }
 
 .mobile-nav-trigger {
@@ -118,7 +116,7 @@ header.no-hero {
   }
 
   .mobile-search {
-    background: url('./search-icon-black.svg') no-repeat 0 0;
+    background: url("./search-icon-black.svg") no-repeat 0 0;
     width: util.rem-calc(15px, 16px);
     height: util.rem-calc(15px, 16px);
     display: block;
@@ -132,7 +130,7 @@ header.no-hero {
   }
 
   .mobile-nav-trigger {
-    background: url('./hamburger-black.svg') no-repeat 0 0;
+    background: url("./hamburger-black.svg") no-repeat 0 0;
     width: util.rem-calc(16px, 16px);
     height: util.rem-calc(13px, 16px);
     display: block;
@@ -152,7 +150,6 @@ header.no-hero {
   .header-nav_top {
     ul {
       li {
-
         a {
           color: colours.$black;
         }
@@ -172,11 +169,11 @@ header.no-hero {
     width: 165px;
 
     @include util.breakpoint(medium) {
-      margin-left: util.rem-calc(40px, 16px)
+      margin-left: util.rem-calc(40px, 16px);
     }
 
     a {
-      background: url('./logo.svg') no-repeat 0 0;
+      background: url("./logo.svg") no-repeat 0 0;
       width: 183px;
       height: 40px;
       display: block;
@@ -188,7 +185,7 @@ header.no-hero {
       width: 421px;
 
       a {
-        background: url('./logo.svg') no-repeat 0 0;
+        background: url("./logo.svg") no-repeat 0 0;
         width: 436px;
         height: 40px;
         display: block;
@@ -197,7 +194,6 @@ header.no-hero {
     }
   }
 }
-
 
 header.fixed-header {
   @include util.breakpoint(large) {
@@ -236,7 +232,7 @@ header.fixed-header {
       width: 165px;
 
       a {
-        background: url('./logo.svg') no-repeat 0 0;
+        background: url("./logo.svg") no-repeat 0 0;
         width: 183px;
         height: 15px;
         display: block;
@@ -244,11 +240,12 @@ header.fixed-header {
       }
 
       @include util.breakpoint(large) {
-        margin: util.rem-calc(27px, 16px) 0 util.rem-calc(24px, 16px) util.rem-calc(24px, 16px);
+        margin: util.rem-calc(27px, 16px) 0 util.rem-calc(24px, 16px)
+          util.rem-calc(24px, 16px);
         width: 421px;
 
         a {
-          background: url('./logo.svg') no-repeat 0 0;
+          background: url("./logo.svg") no-repeat 0 0;
           width: 436px;
           height: 40px;
           display: block;
@@ -265,8 +262,6 @@ header.fixed-header {
   }
 }
 
-
-
 #nav-icon {
   width: 16px;
   height: 13px;
@@ -276,10 +271,10 @@ header.fixed-header {
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   cursor: pointer;
 }
 
@@ -296,10 +291,10 @@ header.fixed-header {
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
-  -webkit-transition: .25s ease-in-out;
-  -moz-transition: .25s ease-in-out;
-  -o-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 #nav-icon span:nth-child(1) {

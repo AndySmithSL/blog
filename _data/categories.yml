@@ -1,5 +1,5 @@
 - title: Resources
-  summary:  Scott Logic's white papers and guides
+  summary: Scott Logic's white papers and guides
   url: /category/resources/
 
 - title: Cloud
@@ -48,8 +48,8 @@
   summary: Talks and presentations given by the Scott Logic team
   url: /category/videos/
 
--  title: Videos
-   url: /category/videos.html
+- title: Videos
+  url: /category/videos.html
 
 # -  title: Open Source
 #    url: /category/open-source.html

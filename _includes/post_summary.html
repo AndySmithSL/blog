@@ -3,8 +3,8 @@
 {%- assign author = site.data.authors.authors[post.author] -%}
 {%- assign postIndex = include.postIndex -%}
 {%- assign postColour = include.post_colour -%}
-{%- if postColour == nil -%}
-  {%- if include.postIndex != nil -%}
+{%- if postColour == null -%}
+  {%- if include.postIndex != null -%}
     {%- capture postColour -%}{%- include post_colour.html post=post postIndex=include.postIndex -%}{%- endcapture -%}
   {%- else -%}
     {%- capture postColour -%}{%- include post_colour.html post=post -%}{%- endcapture -%}
