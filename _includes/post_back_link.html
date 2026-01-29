@@ -1,0 +1,15 @@
+{%- assign url = include.url -%}
+{%- assign label = include.label -%}
+
+<div class="post-back-link">
+  <h2 class="link-title">
+    <a href="{{ url }}">
+      <div class="svg-container">
+        <div class="chevron-wrapper">
+          <span class="material-symbols-outlined"> chevron_left </span>
+        </div>
+        <span class="link-text">{{ label }}</span>
+      </div>
+    </a>
+  </h2>
+</div>

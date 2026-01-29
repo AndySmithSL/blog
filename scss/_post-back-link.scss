@@ -1,0 +1,21 @@
+@use "colours";
+@use "fonts";
+
+.post-back-link {
+
+    h2.link-title {
+        font-size: fonts.$baseFontSize * 1.25;
+        > a {
+            color: colours.$teal;
+            &:hover {
+                color: colours.$white;
+                background-color: colours.$teal;
+            }
+        }
+    }
+
+    span.link-text {
+        font-weight: fonts.$font-bolder;
+    }
+
+}

@@ -66,6 +66,11 @@
     }
   }
 
+  h3.super-title {
+    font-size: fonts.$baseFontSize * 1.25;
+    font-weight: 500;
+  }
+
   .main-content > div {
     display: inline-block;
   }

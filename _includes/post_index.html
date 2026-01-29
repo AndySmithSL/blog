@@ -17,24 +17,20 @@
     <h1 class="super-title">Blog</h1>
     <h2 class="cell sub-title">Our thoughts on technology and design</h2>
   {% else %}
-    <h2 class="super-title">
-      <a href="{{- site.baseurl -}}/index.html">
-        <div class="svg-container">
-          <div class="chevron-wrapper">
-            <span class="material-symbols-outlined"> chevron_left </span>
-          </div>
-          <span class="text">Blog</span>
-        </div>
-      </a>
-    </h2>
-    <h1 class="super-title">
-      {{ categoryName }}
-      {%- if page.search_page -%}
+    {%- if page.search_page -%}
+      {%- include post_back_link.html url="/index.html" label="Back" -%}
+      <h3 class="super-title">
+        <span class="text">Searching for:</span>
+      </h3>
+      <h1 class="super-title">
         <span id="search-term-display" class="search-term-display" style="display: none;">
-          - "<span id="search-term-text"></span>"</span
-        >
-      {%- endif -%}
-    </h1>
+          <span id="search-term-text"></span>
+        </span>
+      </h1>
+    {% else %}
+      {%- include post_back_link.html url="/index.html" label="Blog" -%}
+      <h1 class="super-title">{{ categoryName }}</h1>
+    {%- endif -%}
   {% endif %}
   <div class="hide-for-large">
     {%- include_cached category_list_compact.html selectedCategoryName=categoryName -%}
@@ -42,10 +38,16 @@
   <div class="cell grid-x grid-margin-y">
     <div class="cell large-8">
       {%- if paginator.page < 2 and page.search_page != true -%}
-        {% include_cached featured_posts.html categoryName=categoryName %}
+        {%
+          include_cached featured_posts.html
+          categoryName=categoryName
+        %}
       {%- endif -%}
       {%- if page.search_page -%}
-        <div id="post-summary-list" class="post-summary-list grid-container fluid">
+        <div
+          id="post-summary-list"
+          class="post-summary-list grid-container fluid"
+        >
           <div class="content grid-x">
             <div id="no-results" class="cell" style="display: none;">
               <p>No posts found matching your search.</p>
@@ -56,18 +58,14 @@
         {%- include post_summary_list.html -%}
       {%- endif -%}
     </div>
-    <div
-      class="side-lists cell large-3 large-offset-1 grid-padding-y grid-margin-y"
-    >
+    <div class="side-lists cell large-3 large-offset-1 grid-padding-y grid-margin-y">
       {%- include search_bar.html categoryName=categoryName -%}
       {%- unless page.search_page -%}
         {%- include filter_toggle.html -%}
       {%- endunless -%}
       {%- include_cached category_list.html selectedCategoryName=categoryName -%}
       {%- include_cached author_list.html -%}
-      <!-- TODO:AS -->
-      <!-- {%- comment -%}{%- include email_list.html -%}{%- endcomment -%} -->
-      {%- include email_list.html -%}
+      {%- comment -%}{%- include email_list.html -%}{%- endcomment -%}
     </div>
   </div>
 </div>

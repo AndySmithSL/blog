@@ -22,10 +22,10 @@ export function makeTimestampsRelative() {
           .html(
             diffAsDays === 0
               ? "today"
-              : [diffAsDays, daysUnitLabel, "ago"].join(" "),
+              : [diffAsDays, daysUnitLabel, "ago&nbsp;"].join("&nbsp;"),
           );
       } else if (diffAsWeeks < 4) {
-        elem.empty().html([diffAsWeeks, weeksUnitLabel, "ago"].join(" "));
+        elem.empty().html([diffAsWeeks, weeksUnitLabel, "ago&nbsp;"].join("&nbsp;"));
       }
     }
   });
