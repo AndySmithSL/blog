@@ -1,6 +1,6 @@
 @use 'colours';
 
-.podcasts {
+.podcasts-header {
 
     &.teal {
         @include hero-colour-scheme(colours.$light-teal, colours.$teal, colours.$white);
