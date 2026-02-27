@@ -1,0 +1,96 @@
+@use 'colours';
+
+.default-header {
+
+    &.teal {
+        @include hero-colour-scheme(colours.$light-teal, colours.$teal, colours.$white);
+        @include article-colour-scheme(colours.$teal, colours.$black);
+    }
+
+    &.orange {
+        @include hero-colour-scheme(colours.$light-orange, colours.$orange, colours.$white);
+        @include article-colour-scheme(colours.$orange, colours.$black);
+    }
+
+    &.pink {
+        @include hero-colour-scheme(colours.$light-pink, colours.$pink, colours.$white);
+        @include article-colour-scheme(colours.$pink, colours.$white);
+    }
+
+    &.yellow {
+        @include hero-colour-scheme(colours.$light-yellow, colours.$yellow, colours.$white);
+        @include article-colour-scheme(colours.$yellow, colours.$black);
+    }
+
+    .hero {
+
+        margin-bottom: 1rem;
+        @include breakpoint(large) {
+            margin-bottom: 2rem;
+        }
+
+        > .content {
+            padding: 3rem 0;
+            @include breakpoint(large) {
+                padding: 4rem 0;
+            }
+
+            white-space: nowrap; 
+
+            > .content-block { 
+                display: inline-block; 
+                vertical-align: middle; 
+                white-space: normal; 
+            }
+        }
+
+        > .content:after { 
+            content: ''; 
+            display: inline-block; 
+            height: 100%; 
+            vertical-align: middle;
+            width: 0;
+        }
+
+        > .shape {
+            position: relative;
+            font-size: 0;
+            height: inherit;
+
+            svg.bg {
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+            }
+            svg.fg {
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 100%;
+            }
+        }
+
+        &__summary-block {
+            align-self: stretch;
+            padding-bottom: 0.5rem;
+            padding-right: 1.5rem;
+            justify-content: flex-start;
+            align-items: flex-start;
+            display: flex;
+        }
+
+        &__summary {
+            align-self: stretch;
+            font-weight: 500;
+            word-wrap: break-word;
+        }
+
+         &__title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+    }
+}
