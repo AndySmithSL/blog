@@ -90,6 +90,7 @@ active-authors:
   - kjones
   - klau
   - lcollingwood
+  - lhancock-scottlogic
   - lpisani
   - lvincent
   - magnussmith
@@ -401,7 +402,7 @@ authors:
     feed-description: "David's thoughts on software architecture"
     picture: picture.jpg
   dkerr:
-    author-summary: "<p>I'm a full-stack web developer, with an interest in anything and everything that's new in web technology!</p>"
+    author-summary: "<p>I'm a Lead Developer at Scott Logic based in the Newcastle office. I'm interested in all things in web and AI related!</p>"
     name: "Dean Kerr"
     picture: picture.jpg
   dketley:
@@ -687,6 +688,10 @@ authors:
     name: "Scott Logic Labs"
   lcollingwood:
     name: "Laurie Collingwood"
+    picture: picture.jpg
+  lhancock-scottlogic:
+    name: "Lucy Hancock"
+    author-summary: "I am a full-stack developer at Scott Logic, based in the Newcastle office. I like to make art and do fun coding projects."
     picture: picture.jpg
   lpage:
     name: "Luke Page"
