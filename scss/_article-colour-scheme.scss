@@ -59,11 +59,19 @@
     > .shape {
       svg.bg {
         fill: $bg-colour;
+        .inverse {
+          fill: $fg-inverse-colour;
+        }
       }
       svg.fg {
         fill: $fg-colour;
         .inverse {
           fill: $fg-inverse-colour;
+        }
+
+        circle {
+          stroke: $fg-colour;
+          fill: $bg-colour;
         }
       }
     }

@@ -1,0 +1,45 @@
+{%- assign page = include.page -%}
+{% capture colour %}{% include post_colour.html post=page %}{% endcapture %}
+{% assign colour = colour | strip %}
+
+<div class="default-header {{ colour }} grid-container">
+    <div class="hero grid-x">
+        <div class="shape cell large-1 medium-1 small-1 grid-y">
+            <svg class="bg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102 250" preserveAspectRatio="none">
+                <path d="M0 1H102V334H1V1Z" />
+                <path d="M1 1V0H0V1H1ZM1 334H0V335H1V334ZM1 1V2H102V1V0H1V1ZM102 334V333H1V334V335H102V334ZM1 334H2V1H1H0V334H1Z" />
+                <path d="M1 1L1 30L30 1Z" fill="white" stroke="white" stroke-width="2" />
+                <path d="M0 251L0 220L30 251Z" fill="white"/>
+            </svg>
+        </div>
+        <div class="content cell large-9 medium-9 small-10">
+            <div class="content-block grid-x">
+                <div class="hero__title">
+                    {{ page.title }} 
+                </div>
+                <div class="hero__summary-block">
+                    <div class="hero__summary">{{- page.summary }}</div>
+                </div>
+            </div>
+        </div>
+        <div class="shape cell large-2 medium-2 small-1 grid-y">
+            <svg class="bg" viewBox="0 0 197 250" fill="none" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="none">
+                <path d="M0 1H196V250H0V1Z" />
+                <path
+                    d="M196 1H197V0H196V1ZM196 334V335H197V334H196ZM0 1V2H196V1V0H0V1ZM196 1H195V334H196H197V1H196ZM196 334V333H0V334V335H196V334Z" />
+                <path d="M0 250L350 350L350 250L250 0Z" fill="white"/>
+            </svg>
+            <svg class="fg show-for-large" xmlns="http://www.w3.org/2000/svg" width="650" height="410" viewBox="0 0 650 410">
+                <g transform="translate(400,50)">
+                    <circle class="inversex" cx="60" cy="40" r="10" stroke-width="7"/>
+                    <circle class="inversex" cx="195" cy="80" r="40" stroke-width="25"/>
+                </g>
+                <g transform="translate(400,200)">
+                    <path class="inverse"
+                        d="M136.672 6.20352e-07L188.693 52.0217L188.693 83.7897L104.904 9.99182e-07L136.672 6.20352e-07ZM83.7249 1.25174e-06L188.693 104.968L188.693 105.677L173.164 121.207L51.9569 1.63057e-06L83.7249 1.25174e-06ZM30.7781 1.88312e-06L162.574 131.796L146.69 147.68L0.000671399 0.990592L0.000671387 2.25014e-06L30.7781 1.88312e-06ZM0.000671651 22.1693L136.101 158.269L120.217 174.153L0.00067203 53.9374L0.000671651 22.1693ZM0.000672282 75.1161L109.627 184.743L105.678 188.693L81.8092 188.693L0.000672661 106.884L0.000672282 75.1161Z" />
+                </g>
+            </svg>
+        </div>  
+    </div>
+</div>
